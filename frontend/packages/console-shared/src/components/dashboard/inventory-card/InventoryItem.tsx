@@ -176,7 +176,9 @@ const StatusLink: React.FC<StatusLinkProps> = ({
   return (
     <div className="co-inventory-card__status">
       <Link to={to} style={{ textDecoration: 'none' }}>
-        <span className="co-dashboard-icon">{groupIcon}</span>
+        <span className="co-dashboard-icon" aria-label={statusIDs[1]}>
+          {groupIcon}
+        </span>
         <span className="co-inventory-card__status-text">{count}</span>
       </Link>
     </div>
