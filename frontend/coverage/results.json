@@ -1,0 +1,3580 @@
+{
+  "/": {
+    "violations": [
+      {
+        "id": "aria-hidden-focus",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag131"
+        ],
+        "description": "Ensures aria-hidden elements do not contain focusable elements",
+        "help": "ARIA hidden element must not contain focusable elements",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.5/aria-hidden-focus?application=axeAPI",
+        "nodes": [
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "focusable-disabled",
+                "data": null,
+                "relatedNodes": [
+                  {
+                    "html": "<button class=\"pf-c-notification-drawer__group-toggle\" aria-expanded=\"false\">",
+                    "target": [
+                      ".query-pf-c-notification-drawer__group:nth-child(1) > .pf-c-notification-drawer__group-toggle"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Focusable content should be disabled or be removed from the DOM"
+              }
+            ],
+            "none": [],
+            "impact": "serious",
+            "html": "<div class=\"pf-c-drawer__panel co-notification-drawer\" hidden=\"\" aria-hidden=\"true\" aria-expanded=\"false\">",
+            "target": [
+              ".pf-c-drawer__panel"
+            ]
+          }
+        ]
+      }
+    ],
+    "time": 0.743278828
+  },
+  "/dashboards": {
+    "violations": [
+      {
+        "id": "aria-hidden-focus",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag131"
+        ],
+        "description": "Ensures aria-hidden elements do not contain focusable elements",
+        "help": "ARIA hidden element must not contain focusable elements",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.5/aria-hidden-focus?application=axeAPI",
+        "nodes": [
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "focusable-disabled",
+                "data": null,
+                "relatedNodes": [
+                  {
+                    "html": "<button class=\"pf-c-notification-drawer__group-toggle\" aria-expanded=\"false\">",
+                    "target": [
+                      ".pf-c-notification-drawer__group-toggle"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Focusable content should be disabled or be removed from the DOM"
+              }
+            ],
+            "none": [],
+            "impact": "serious",
+            "html": "<div class=\"pf-c-drawer__panel co-notification-drawer\" hidden=\"\" aria-hidden=\"true\" aria-expanded=\"false\">",
+            "target": [
+              ".pf-c-drawer__panel"
+            ]
+          }
+        ]
+      }
+    ],
+    "time": 2.539797875
+  },
+  "/k8s/cluster/projects": {
+    "violations": [],
+    "time": 2.988687743
+  },
+  "/api-explorer": {
+    "violations": [
+      {
+        "id": "aria-hidden-focus",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag131"
+        ],
+        "description": "Ensures aria-hidden elements do not contain focusable elements",
+        "help": "ARIA hidden element must not contain focusable elements",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.5/aria-hidden-focus?application=axeAPI",
+        "nodes": [
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "focusable-disabled",
+                "data": null,
+                "relatedNodes": [
+                  {
+                    "html": "<button class=\"pf-c-notification-drawer__group-toggle\" aria-expanded=\"false\">",
+                    "target": [
+                      ".pf-c-notification-drawer__group-toggle"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Focusable content should be disabled or be removed from the DOM"
+              }
+            ],
+            "none": [],
+            "impact": "serious",
+            "html": "<div class=\"pf-c-drawer__panel co-notification-drawer\" hidden=\"\" aria-hidden=\"true\" aria-expanded=\"false\">",
+            "target": [
+              ".pf-c-drawer__panel"
+            ]
+          }
+        ]
+      }
+    ],
+    "time": 2.810410215
+  },
+  "/k8s/all-namespaces/operators.coreos.com~v1alpha1~ClusterServiceVersion": {
+    "violations": [
+      {
+        "id": "aria-hidden-focus",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag131"
+        ],
+        "description": "Ensures aria-hidden elements do not contain focusable elements",
+        "help": "ARIA hidden element must not contain focusable elements",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.5/aria-hidden-focus?application=axeAPI",
+        "nodes": [
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "focusable-disabled",
+                "data": null,
+                "relatedNodes": [
+                  {
+                    "html": "<button class=\"pf-c-notification-drawer__group-toggle\" aria-expanded=\"false\">",
+                    "target": [
+                      ".query-pf-c-notification-drawer__group:nth-child(1) > .pf-c-notification-drawer__group-toggle"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Focusable content should be disabled or be removed from the DOM"
+              }
+            ],
+            "none": [],
+            "impact": "serious",
+            "html": "<div class=\"pf-c-drawer__panel co-notification-drawer\" hidden=\"\" aria-hidden=\"true\" aria-expanded=\"false\">",
+            "target": [
+              ".pf-c-drawer__panel"
+            ]
+          }
+        ]
+      }
+    ],
+    "time": 2.460493809
+  },
+  "/k8s/all-namespaces/pods": {
+    "violations": [],
+    "time": 2.750486721
+  },
+  "/search": {
+    "violations": [],
+    "time": 3.179410239
+  },
+  "/operatorhub": {
+    "violations": [],
+    "time": 3.229754643
+  },
+  "/k8s/all-namespaces/events": {
+    "violations": [
+      {
+        "id": "heading-order",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ],
+        "description": "Ensures the order of headings is semantically correct",
+        "help": "Heading levels should only increase by one",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.5/heading-order?application=axeAPI",
+        "nodes": [
+          {
+            "any": [
+              {
+                "id": "heading-order",
+                "data": 4,
+                "relatedNodes": [
+                  {
+                    "html": "<h4 class=\"pf-c-chip-group__label\" id=\"pf-random-id-0\">Resource</h4>"
+                  }
+                ],
+                "impact": "moderate",
+                "message": "Heading order invalid"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "moderate",
+            "html": "<h4 class=\"pf-c-chip-group__label\" id=\"pf-random-id-0\">Resource</h4>",
+            "target": [
+              "#pf-random-id-0"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "list",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ],
+        "description": "Ensures that lists are structured correctly",
+        "help": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.5/list?application=axeAPI",
+        "nodes": [
+          {
+            "any": [],
+            "all": [],
+            "none": [
+              {
+                "id": "only-listitems",
+                "data": null,
+                "relatedNodes": [
+                  {
+                    "html": "<button aria-label=\"Close\" class=\"pf-c-button pf-m-plain\" type=\"button\">",
+                    "target": [
+                      "button[aria-label=\"Close\"]"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "List element has direct children that are not allowed inside <li> elements"
+              }
+            ],
+            "impact": "serious",
+            "html": "<ul class=\"pf-c-chip-group\">",
+            "target": [
+              "li > .pf-c-chip-group"
+            ]
+          }
+        ]
+      }
+    ],
+    "time": 3.423640503
+  },
+  "/k8s/all-namespaces/deploymentconfigs": {
+    "violations": [
+      {
+        "id": "aria-hidden-focus",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag131"
+        ],
+        "description": "Ensures aria-hidden elements do not contain focusable elements",
+        "help": "ARIA hidden element must not contain focusable elements",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.5/aria-hidden-focus?application=axeAPI",
+        "nodes": [
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "focusable-disabled",
+                "data": null,
+                "relatedNodes": [
+                  {
+                    "html": "<button class=\"pf-c-notification-drawer__group-toggle\" aria-expanded=\"false\">",
+                    "target": [
+                      ".pf-c-notification-drawer__group-toggle"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Focusable content should be disabled or be removed from the DOM"
+              }
+            ],
+            "none": [],
+            "impact": "serious",
+            "html": "<div class=\"pf-c-drawer__panel co-notification-drawer\" hidden=\"\" aria-hidden=\"true\" aria-expanded=\"false\">",
+            "target": [
+              ".pf-c-drawer__panel"
+            ]
+          }
+        ]
+      }
+    ],
+    "time": 2.534070807
+  },
+  "/k8s/all-namespaces/deployments": {
+    "violations": [],
+    "time": 3.000243603
+  },
+  "/k8s/all-namespaces/statefulsets": {
+    "violations": [
+      {
+        "id": "aria-hidden-focus",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag131"
+        ],
+        "description": "Ensures aria-hidden elements do not contain focusable elements",
+        "help": "ARIA hidden element must not contain focusable elements",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.5/aria-hidden-focus?application=axeAPI",
+        "nodes": [
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "focusable-disabled",
+                "data": null,
+                "relatedNodes": [
+                  {
+                    "html": "<button class=\"pf-c-notification-drawer__group-toggle\" aria-expanded=\"false\">",
+                    "target": [
+                      ".query-pf-c-notification-drawer__group:nth-child(1) > .pf-c-notification-drawer__group-toggle"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Focusable content should be disabled or be removed from the DOM"
+              }
+            ],
+            "none": [],
+            "impact": "serious",
+            "html": "<div class=\"pf-c-drawer__panel co-notification-drawer\" hidden=\"\" aria-hidden=\"true\" aria-expanded=\"false\">",
+            "target": [
+              ".pf-c-drawer__panel"
+            ]
+          }
+        ]
+      }
+    ],
+    "time": 3.054064148
+  },
+  "/k8s/all-namespaces/secrets": {
+    "violations": [],
+    "time": 2.7949072790000002
+  },
+  "/k8s/all-namespaces/jobs": {
+    "violations": [
+      {
+        "id": "aria-hidden-focus",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag131"
+        ],
+        "description": "Ensures aria-hidden elements do not contain focusable elements",
+        "help": "ARIA hidden element must not contain focusable elements",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.5/aria-hidden-focus?application=axeAPI",
+        "nodes": [
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "focusable-disabled",
+                "data": null,
+                "relatedNodes": [
+                  {
+                    "html": "<button class=\"pf-c-notification-drawer__group-toggle\" aria-expanded=\"false\">",
+                    "target": [
+                      ".query-pf-c-notification-drawer__group:nth-child(1) > .pf-c-notification-drawer__group-toggle"
+                    ]
+                  },
+                  {
+                    "html": "<button class=\"pf-c-notification-drawer__group-toggle\" aria-expanded=\"true\">",
+                    "target": [
+                      ".query-pf-c-notification-drawer__group.pf-m-expanded > .pf-c-notification-drawer__group-toggle"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Focusable content should be disabled or be removed from the DOM"
+              },
+              {
+                "id": "focusable-not-tabbable",
+                "data": null,
+                "relatedNodes": [
+                  {
+                    "html": "<li class=\"pf-c-notification-drawer__list-item pf-m-hoverable pf-m-warning\" tabindex=\"0\">",
+                    "target": [
+                      ".pf-m-warning.pf-c-notification-drawer__list-item.pf-m-hoverable:nth-child(1)"
+                    ]
+                  },
+                  {
+                    "html": "<li class=\"pf-c-notification-drawer__list-item pf-m-hoverable pf-m-warning\" tabindex=\"0\">",
+                    "target": [
+                      ".pf-m-warning.pf-c-notification-drawer__list-item.pf-m-hoverable:nth-child(2)"
+                    ]
+                  },
+                  {
+                    "html": "<li class=\"pf-c-notification-drawer__list-item pf-m-hoverable pf-m-warning\" tabindex=\"0\">",
+                    "target": [
+                      ".pf-m-warning.pf-c-notification-drawer__list-item.pf-m-hoverable:nth-child(3)"
+                    ]
+                  },
+                  {
+                    "html": "<a href=\"/monitoring/alertmanagerconfig\">Configure</a>",
+                    "target": [
+                      "a[href$=\"alertmanagerconfig\"]"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Focusable content should have tabindex='-1' or be removed from the DOM"
+              }
+            ],
+            "none": [],
+            "impact": "serious",
+            "html": "<div class=\"pf-c-drawer__panel co-notification-drawer\" hidden=\"\" aria-hidden=\"true\" aria-expanded=\"false\">",
+            "target": [
+              ".pf-c-drawer__panel"
+            ]
+          }
+        ]
+      }
+    ],
+    "time": 2.852410193
+  },
+  "/k8s/all-namespaces/configmaps": {
+    "violations": [],
+    "time": 3.200022797
+  },
+  "/k8s/all-namespaces/cronjobs": {
+    "violations": [
+      {
+        "id": "aria-hidden-focus",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag131"
+        ],
+        "description": "Ensures aria-hidden elements do not contain focusable elements",
+        "help": "ARIA hidden element must not contain focusable elements",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.5/aria-hidden-focus?application=axeAPI",
+        "nodes": [
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "focusable-disabled",
+                "data": null,
+                "relatedNodes": [
+                  {
+                    "html": "<button class=\"pf-c-notification-drawer__group-toggle\" aria-expanded=\"false\">",
+                    "target": [
+                      ".query-pf-c-notification-drawer__group:nth-child(1) > .pf-c-notification-drawer__group-toggle"
+                    ]
+                  },
+                  {
+                    "html": "<button class=\"pf-c-notification-drawer__group-toggle\" aria-expanded=\"true\">",
+                    "target": [
+                      ".query-pf-c-notification-drawer__group.pf-m-expanded > .pf-c-notification-drawer__group-toggle"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Focusable content should be disabled or be removed from the DOM"
+              },
+              {
+                "id": "focusable-not-tabbable",
+                "data": null,
+                "relatedNodes": [
+                  {
+                    "html": "<li class=\"pf-c-notification-drawer__list-item pf-m-hoverable pf-m-warning\" tabindex=\"0\">",
+                    "target": [
+                      ".pf-m-warning.pf-c-notification-drawer__list-item.pf-m-hoverable:nth-child(1)"
+                    ]
+                  },
+                  {
+                    "html": "<li class=\"pf-c-notification-drawer__list-item pf-m-hoverable pf-m-warning\" tabindex=\"0\">",
+                    "target": [
+                      ".pf-m-warning.pf-c-notification-drawer__list-item.pf-m-hoverable:nth-child(2)"
+                    ]
+                  },
+                  {
+                    "html": "<li class=\"pf-c-notification-drawer__list-item pf-m-hoverable pf-m-warning\" tabindex=\"0\">",
+                    "target": [
+                      ".pf-m-warning.pf-c-notification-drawer__list-item.pf-m-hoverable:nth-child(3)"
+                    ]
+                  },
+                  {
+                    "html": "<a href=\"/monitoring/alertmanagerconfig\">Configure</a>",
+                    "target": [
+                      "a[href$=\"alertmanagerconfig\"]"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Focusable content should have tabindex='-1' or be removed from the DOM"
+              }
+            ],
+            "none": [],
+            "impact": "serious",
+            "html": "<div class=\"pf-c-drawer__panel co-notification-drawer\" hidden=\"\" aria-hidden=\"true\" aria-expanded=\"false\">",
+            "target": [
+              ".pf-c-drawer__panel"
+            ]
+          }
+        ]
+      }
+    ],
+    "time": 3.33732053
+  },
+  "/k8s/all-namespaces/daemonsets": {
+    "violations": [],
+    "time": 3.24917296
+  },
+  "/k8s/all-namespaces/replicasets": {
+    "violations": [
+      {
+        "id": "aria-hidden-focus",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag131"
+        ],
+        "description": "Ensures aria-hidden elements do not contain focusable elements",
+        "help": "ARIA hidden element must not contain focusable elements",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.5/aria-hidden-focus?application=axeAPI",
+        "nodes": [
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "focusable-disabled",
+                "data": null,
+                "relatedNodes": [
+                  {
+                    "html": "<button class=\"pf-c-notification-drawer__group-toggle\" aria-expanded=\"false\">",
+                    "target": [
+                      ".pf-c-notification-drawer__group-toggle"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Focusable content should be disabled or be removed from the DOM"
+              }
+            ],
+            "none": [],
+            "impact": "serious",
+            "html": "<div class=\"pf-c-drawer__panel co-notification-drawer\" hidden=\"\" aria-hidden=\"true\" aria-expanded=\"false\">",
+            "target": [
+              ".pf-c-drawer__panel"
+            ]
+          }
+        ]
+      }
+    ],
+    "time": 2.296066503
+  },
+  "/k8s/all-namespaces/replicationcontrollers": {
+    "violations": [],
+    "time": 3.111763331
+  },
+  "/k8s/all-namespaces/horizontalpodautoscalers": {
+    "violations": [],
+    "time": 2.951012572
+  },
+  "/k8s/all-namespaces/services": {
+    "violations": [],
+    "time": 2.997483766
+  },
+  "/k8s/all-namespaces/routes": {
+    "violations": [],
+    "time": 2.735276842
+  },
+  "/k8s/all-namespaces/networkpolicies": {
+    "violations": [
+      {
+        "id": "aria-hidden-focus",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag131"
+        ],
+        "description": "Ensures aria-hidden elements do not contain focusable elements",
+        "help": "ARIA hidden element must not contain focusable elements",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.5/aria-hidden-focus?application=axeAPI",
+        "nodes": [
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "focusable-disabled",
+                "data": null,
+                "relatedNodes": [
+                  {
+                    "html": "<button class=\"pf-c-notification-drawer__group-toggle\" aria-expanded=\"false\">",
+                    "target": [
+                      ".query-pf-c-notification-drawer__group:nth-child(1) > .pf-c-notification-drawer__group-toggle"
+                    ]
+                  },
+                  {
+                    "html": "<button class=\"pf-c-notification-drawer__group-toggle\" aria-expanded=\"true\">",
+                    "target": [
+                      ".query-pf-c-notification-drawer__group.pf-m-expanded > .pf-c-notification-drawer__group-toggle"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Focusable content should be disabled or be removed from the DOM"
+              },
+              {
+                "id": "focusable-not-tabbable",
+                "data": null,
+                "relatedNodes": [
+                  {
+                    "html": "<li class=\"pf-c-notification-drawer__list-item pf-m-hoverable pf-m-warning\" tabindex=\"0\">",
+                    "target": [
+                      ".pf-m-warning.pf-c-notification-drawer__list-item.pf-m-hoverable:nth-child(1)"
+                    ]
+                  },
+                  {
+                    "html": "<li class=\"pf-c-notification-drawer__list-item pf-m-hoverable pf-m-warning\" tabindex=\"0\">",
+                    "target": [
+                      ".pf-m-warning.pf-c-notification-drawer__list-item.pf-m-hoverable:nth-child(2)"
+                    ]
+                  },
+                  {
+                    "html": "<li class=\"pf-c-notification-drawer__list-item pf-m-hoverable pf-m-warning\" tabindex=\"0\">",
+                    "target": [
+                      ".pf-m-warning.pf-c-notification-drawer__list-item.pf-m-hoverable:nth-child(3)"
+                    ]
+                  },
+                  {
+                    "html": "<a href=\"/monitoring/alertmanagerconfig\">Configure</a>",
+                    "target": [
+                      "a[href$=\"alertmanagerconfig\"]"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Focusable content should have tabindex='-1' or be removed from the DOM"
+              }
+            ],
+            "none": [],
+            "impact": "serious",
+            "html": "<div class=\"pf-c-drawer__panel co-notification-drawer\" hidden=\"\" aria-hidden=\"true\" aria-expanded=\"false\">",
+            "target": [
+              ".pf-c-drawer__panel"
+            ]
+          }
+        ]
+      }
+    ],
+    "time": 2.645997103
+  },
+  "/k8s/all-namespaces/ingresses": {
+    "violations": [],
+    "time": 2.665470138
+  },
+  "/k8s/cluster/persistentvolumes": {
+    "violations": [],
+    "time": 3.378919251
+  },
+  "/k8s/all-namespaces/persistentvolumeclaims": {
+    "violations": [],
+    "time": 3.20471749
+  },
+  "/k8s/all-namespaces/builds": {
+    "violations": [],
+    "time": 2.686423891
+  },
+  "/k8s/cluster/storageclasses": {
+    "violations": [],
+    "time": 3.15147638
+  },
+  "/k8s/all-namespaces/buildconfigs": {
+    "violations": [],
+    "time": 3.369320712
+  },
+  "/monitoring/alerts": {
+    "violations": [
+      {
+        "id": "aria-hidden-focus",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag131"
+        ],
+        "description": "Ensures aria-hidden elements do not contain focusable elements",
+        "help": "ARIA hidden element must not contain focusable elements",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.5/aria-hidden-focus?application=axeAPI",
+        "nodes": [
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "focusable-disabled",
+                "data": null,
+                "relatedNodes": [
+                  {
+                    "html": "<button class=\"pf-c-notification-drawer__group-toggle\" aria-expanded=\"false\">",
+                    "target": [
+                      ".query-pf-c-notification-drawer__group:nth-child(1) > .pf-c-notification-drawer__group-toggle"
+                    ]
+                  },
+                  {
+                    "html": "<button class=\"pf-c-notification-drawer__group-toggle\" aria-expanded=\"true\">",
+                    "target": [
+                      ".query-pf-c-notification-drawer__group.pf-m-expanded > .pf-c-notification-drawer__group-toggle"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Focusable content should be disabled or be removed from the DOM"
+              },
+              {
+                "id": "focusable-not-tabbable",
+                "data": null,
+                "relatedNodes": [
+                  {
+                    "html": "<li class=\"pf-c-notification-drawer__list-item pf-m-hoverable pf-m-warning\" tabindex=\"0\">",
+                    "target": [
+                      ".pf-m-warning.pf-c-notification-drawer__list-item.pf-m-hoverable:nth-child(1)"
+                    ]
+                  },
+                  {
+                    "html": "<li class=\"pf-c-notification-drawer__list-item pf-m-hoverable pf-m-warning\" tabindex=\"0\">",
+                    "target": [
+                      ".pf-m-warning.pf-c-notification-drawer__list-item.pf-m-hoverable:nth-child(2)"
+                    ]
+                  },
+                  {
+                    "html": "<li class=\"pf-c-notification-drawer__list-item pf-m-hoverable pf-m-warning\" tabindex=\"0\">",
+                    "target": [
+                      ".pf-m-warning.pf-c-notification-drawer__list-item.pf-m-hoverable:nth-child(3)"
+                    ]
+                  },
+                  {
+                    "html": "<a href=\"/monitoring/alertmanagerconfig\">Configure</a>",
+                    "target": [
+                      "a[href$=\"alertmanagerconfig\"]"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Focusable content should have tabindex='-1' or be removed from the DOM"
+              }
+            ],
+            "none": [],
+            "impact": "serious",
+            "html": "<div class=\"pf-c-drawer__panel co-notification-drawer\" hidden=\"\" aria-hidden=\"true\" aria-expanded=\"false\">",
+            "target": [
+              ".pf-c-drawer__panel"
+            ]
+          }
+        ]
+      }
+    ],
+    "time": 3.281888788
+  },
+  "/k8s/all-namespaces/imagestreams": {
+    "violations": [],
+    "time": 3.497698913
+  },
+  "/monitoring/query-browser?query0=": {
+    "violations": [
+      {
+        "id": "button-name",
+        "impact": "critical",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "section508",
+          "section508.22.a"
+        ],
+        "description": "Ensures buttons have discernible text",
+        "help": "Buttons must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.5/button-name?application=axeAPI",
+        "nodes": [
+          {
+            "any": [
+              {
+                "id": "button-has-visible-text",
+                "data": "",
+                "relatedNodes": [
+                  {
+                    "html": "<button aria-haspopup=\"true\" type=\"button\" class=\"pf-c-dropdown__toggle\" id=\"metrics-dropdown\">"
+                  }
+                ],
+                "impact": "critical",
+                "message": "Element does not have inner text that is visible to screen readers"
+              },
+              {
+                "id": "aria-label",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "aria-label attribute does not exist or is empty"
+              },
+              {
+                "id": "aria-labelledby",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+              },
+              {
+                "id": "role-presentation",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "minor",
+                "message": "Element's default semantics were not overridden with role=\"presentation\""
+              },
+              {
+                "id": "role-none",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "minor",
+                "message": "Element's default semantics were not overridden with role=\"none\""
+              },
+              {
+                "id": "non-empty-title",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has no title attribute or the title attribute is empty"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "critical",
+            "html": "<button aria-haspopup=\"true\" type=\"button\" class=\"pf-c-dropdown__toggle\" id=\"metrics-dropdown\">",
+            "target": [
+              "#metrics-dropdown"
+            ]
+          }
+        ]
+      }
+    ],
+    "time": 3.617110045
+  },
+  "/monitoring/dashboards": {
+    "violations": [
+      {
+        "id": "aria-hidden-focus",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag131"
+        ],
+        "description": "Ensures aria-hidden elements do not contain focusable elements",
+        "help": "ARIA hidden element must not contain focusable elements",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.5/aria-hidden-focus?application=axeAPI",
+        "nodes": [
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "focusable-disabled",
+                "data": null,
+                "relatedNodes": [
+                  {
+                    "html": "<button class=\"pf-c-notification-drawer__group-toggle\" aria-expanded=\"false\">",
+                    "target": [
+                      ".query-pf-c-notification-drawer__group:nth-child(1) > .pf-c-notification-drawer__group-toggle"
+                    ]
+                  },
+                  {
+                    "html": "<button class=\"pf-c-notification-drawer__group-toggle\" aria-expanded=\"true\">",
+                    "target": [
+                      ".query-pf-c-notification-drawer__group.pf-m-expanded > .pf-c-notification-drawer__group-toggle"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Focusable content should be disabled or be removed from the DOM"
+              },
+              {
+                "id": "focusable-not-tabbable",
+                "data": null,
+                "relatedNodes": [
+                  {
+                    "html": "<li class=\"pf-c-notification-drawer__list-item pf-m-hoverable pf-m-warning\" tabindex=\"0\">",
+                    "target": [
+                      ".pf-m-warning.pf-c-notification-drawer__list-item.pf-m-hoverable:nth-child(1)"
+                    ]
+                  },
+                  {
+                    "html": "<li class=\"pf-c-notification-drawer__list-item pf-m-hoverable pf-m-warning\" tabindex=\"0\">",
+                    "target": [
+                      ".pf-m-warning.pf-c-notification-drawer__list-item.pf-m-hoverable:nth-child(2)"
+                    ]
+                  },
+                  {
+                    "html": "<li class=\"pf-c-notification-drawer__list-item pf-m-hoverable pf-m-warning\" tabindex=\"0\">",
+                    "target": [
+                      ".pf-m-warning.pf-c-notification-drawer__list-item.pf-m-hoverable:nth-child(3)"
+                    ]
+                  },
+                  {
+                    "html": "<a href=\"/monitoring/alertmanagerconfig\">Configure</a>",
+                    "target": [
+                      "a[href$=\"alertmanagerconfig\"]"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Focusable content should have tabindex='-1' or be removed from the DOM"
+              }
+            ],
+            "none": [],
+            "impact": "serious",
+            "html": "<div class=\"pf-c-drawer__panel co-notification-drawer\" hidden=\"\" aria-hidden=\"true\" aria-expanded=\"false\">",
+            "target": [
+              ".pf-c-drawer__panel"
+            ]
+          }
+        ]
+      }
+    ],
+    "time": 3.309059235
+  },
+  "/k8s/cluster/nodes": {
+    "violations": [],
+    "time": 2.93575795
+  },
+  "/k8s/cluster/user.openshift.io~v1~User": {
+    "violations": [
+      {
+        "id": "aria-hidden-focus",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag131"
+        ],
+        "description": "Ensures aria-hidden elements do not contain focusable elements",
+        "help": "ARIA hidden element must not contain focusable elements",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.5/aria-hidden-focus?application=axeAPI",
+        "nodes": [
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "focusable-disabled",
+                "data": null,
+                "relatedNodes": [
+                  {
+                    "html": "<button class=\"pf-c-notification-drawer__group-toggle\" aria-expanded=\"false\">",
+                    "target": [
+                      ".pf-c-notification-drawer__group-toggle"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Focusable content should be disabled or be removed from the DOM"
+              }
+            ],
+            "none": [],
+            "impact": "serious",
+            "html": "<div class=\"pf-c-drawer__panel co-notification-drawer\" hidden=\"\" aria-hidden=\"true\" aria-expanded=\"false\">",
+            "target": [
+              ".pf-c-drawer__panel"
+            ]
+          }
+        ]
+      }
+    ],
+    "time": 3.186443616
+  },
+  "/k8s/cluster/user.openshift.io~v1~Group": {
+    "violations": [
+      {
+        "id": "aria-hidden-focus",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag131"
+        ],
+        "description": "Ensures aria-hidden elements do not contain focusable elements",
+        "help": "ARIA hidden element must not contain focusable elements",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.5/aria-hidden-focus?application=axeAPI",
+        "nodes": [
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "focusable-disabled",
+                "data": null,
+                "relatedNodes": [
+                  {
+                    "html": "<button class=\"pf-c-notification-drawer__group-toggle\" aria-expanded=\"false\">",
+                    "target": [
+                      ".query-pf-c-notification-drawer__group:nth-child(1) > .pf-c-notification-drawer__group-toggle"
+                    ]
+                  },
+                  {
+                    "html": "<button class=\"pf-c-notification-drawer__group-toggle\" aria-expanded=\"true\">",
+                    "target": [
+                      ".query-pf-c-notification-drawer__group.pf-m-expanded > .pf-c-notification-drawer__group-toggle"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Focusable content should be disabled or be removed from the DOM"
+              },
+              {
+                "id": "focusable-not-tabbable",
+                "data": null,
+                "relatedNodes": [
+                  {
+                    "html": "<li class=\"pf-c-notification-drawer__list-item pf-m-hoverable pf-m-warning\" tabindex=\"0\">",
+                    "target": [
+                      ".pf-m-warning.pf-c-notification-drawer__list-item.pf-m-hoverable:nth-child(1)"
+                    ]
+                  },
+                  {
+                    "html": "<li class=\"pf-c-notification-drawer__list-item pf-m-hoverable pf-m-warning\" tabindex=\"0\">",
+                    "target": [
+                      ".pf-m-warning.pf-c-notification-drawer__list-item.pf-m-hoverable:nth-child(2)"
+                    ]
+                  },
+                  {
+                    "html": "<li class=\"pf-c-notification-drawer__list-item pf-m-hoverable pf-m-warning\" tabindex=\"0\">",
+                    "target": [
+                      ".pf-m-warning.pf-c-notification-drawer__list-item.pf-m-hoverable:nth-child(3)"
+                    ]
+                  },
+                  {
+                    "html": "<a href=\"/monitoring/alertmanagerconfig\">Configure</a>",
+                    "target": [
+                      "a[href$=\"alertmanagerconfig\"]"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Focusable content should have tabindex='-1' or be removed from the DOM"
+              }
+            ],
+            "none": [],
+            "impact": "serious",
+            "html": "<div class=\"pf-c-drawer__panel co-notification-drawer\" hidden=\"\" aria-hidden=\"true\" aria-expanded=\"false\">",
+            "target": [
+              ".pf-c-drawer__panel"
+            ]
+          }
+        ]
+      }
+    ],
+    "time": 2.874029305
+  },
+  "/k8s/all-namespaces/serviceaccounts": {
+    "violations": [],
+    "time": 3.534115974
+  },
+  "/k8s/all-namespaces/roles": {
+    "violations": [],
+    "time": 3.710890511
+  },
+  "/k8s/all-namespaces/rolebindings": {
+    "violations": [],
+    "time": 3.643038543
+  },
+  "/k8s/cluster/namespaces": {
+    "violations": [],
+    "time": 2.895786395
+  },
+  "/settings/cluster": {
+    "violations": [],
+    "time": 3.560521106
+  },
+  "/k8s/all-namespaces/limitranges": {
+    "violations": [],
+    "time": 2.700411754
+  },
+  "/k8s/all-namespaces/resourcequotas": {
+    "violations": [],
+    "time": 3.158138137
+  },
+  "/k8s/cluster/customresourcedefinitions": {
+    "violations": [],
+    "time": 2.909432091
+  },
+  "/k8s/cluster/config.openshift.io~v1~OAuth/cluster": {
+    "violations": [],
+    "time": 2.704432823
+  },
+  "/catalog": {
+    "violations": [],
+    "time": 2.8158383049999998
+  },
+  "/k8s/cluster/deployments/~new": {
+    "violations": [
+      {
+        "id": "aria-hidden-focus",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag131"
+        ],
+        "description": "Ensures aria-hidden elements do not contain focusable elements",
+        "help": "ARIA hidden element must not contain focusable elements",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.5/aria-hidden-focus?application=axeAPI",
+        "nodes": [
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "focusable-disabled",
+                "data": null,
+                "relatedNodes": [
+                  {
+                    "html": "<button class=\"pf-c-notification-drawer__group-toggle\" aria-expanded=\"false\">",
+                    "target": [
+                      ".query-pf-c-notification-drawer__group:nth-child(1) > .pf-c-notification-drawer__group-toggle"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Focusable content should be disabled or be removed from the DOM"
+              }
+            ],
+            "none": [],
+            "impact": "serious",
+            "html": "<div class=\"pf-c-drawer__panel co-notification-drawer\" hidden=\"\" aria-hidden=\"true\" aria-expanded=\"false\">",
+            "target": [
+              ".pf-c-drawer__panel"
+            ]
+          }
+        ]
+      }
+    ],
+    "time": 2.737130854
+  },
+  "/monitoring/alertmanagerconfig": {
+    "violations": [],
+    "time": 3.533286521
+  },
+  "/k8s/cluster/pods/~new": {
+    "violations": [
+      {
+        "id": "aria-hidden-focus",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag131"
+        ],
+        "description": "Ensures aria-hidden elements do not contain focusable elements",
+        "help": "ARIA hidden element must not contain focusable elements",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.5/aria-hidden-focus?application=axeAPI",
+        "nodes": [
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "focusable-disabled",
+                "data": null,
+                "relatedNodes": [
+                  {
+                    "html": "<button class=\"pf-c-notification-drawer__group-toggle\" aria-expanded=\"false\">",
+                    "target": [
+                      ".query-pf-c-notification-drawer__group:nth-child(1) > .pf-c-notification-drawer__group-toggle"
+                    ]
+                  },
+                  {
+                    "html": "<button class=\"pf-c-notification-drawer__group-toggle\" aria-expanded=\"true\">",
+                    "target": [
+                      ".query-pf-c-notification-drawer__group.pf-m-expanded > .pf-c-notification-drawer__group-toggle"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Focusable content should be disabled or be removed from the DOM"
+              },
+              {
+                "id": "focusable-not-tabbable",
+                "data": null,
+                "relatedNodes": [
+                  {
+                    "html": "<li class=\"pf-c-notification-drawer__list-item pf-m-hoverable pf-m-warning\" tabindex=\"0\">",
+                    "target": [
+                      ".pf-m-warning.pf-c-notification-drawer__list-item.pf-m-hoverable:nth-child(1)"
+                    ]
+                  },
+                  {
+                    "html": "<li class=\"pf-c-notification-drawer__list-item pf-m-hoverable pf-m-warning\" tabindex=\"0\">",
+                    "target": [
+                      ".pf-m-warning.pf-c-notification-drawer__list-item.pf-m-hoverable:nth-child(2)"
+                    ]
+                  },
+                  {
+                    "html": "<li class=\"pf-c-notification-drawer__list-item pf-m-hoverable pf-m-warning\" tabindex=\"0\">",
+                    "target": [
+                      ".pf-m-warning.pf-c-notification-drawer__list-item.pf-m-hoverable:nth-child(3)"
+                    ]
+                  },
+                  {
+                    "html": "<a href=\"/monitoring/alertmanagerconfig\">Configure</a>",
+                    "target": [
+                      "a[href$=\"alertmanagerconfig\"]"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Focusable content should have tabindex='-1' or be removed from the DOM"
+              }
+            ],
+            "none": [],
+            "impact": "serious",
+            "html": "<div class=\"pf-c-drawer__panel co-notification-drawer\" hidden=\"\" aria-hidden=\"true\" aria-expanded=\"false\">",
+            "target": [
+              ".pf-c-drawer__panel"
+            ]
+          }
+        ]
+      }
+    ],
+    "time": 3.121099655
+  },
+  "/k8s/cluster/statefulsets/~new": {
+    "violations": [],
+    "time": 3.187080464
+  },
+  "/k8s/cluster/configmaps/~new": {
+    "violations": [],
+    "time": 3.348288157
+  },
+  "/k8s/cluster/daemonsets/~new": {
+    "violations": [
+      {
+        "id": "aria-hidden-focus",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag131"
+        ],
+        "description": "Ensures aria-hidden elements do not contain focusable elements",
+        "help": "ARIA hidden element must not contain focusable elements",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.5/aria-hidden-focus?application=axeAPI",
+        "nodes": [
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "focusable-disabled",
+                "data": null,
+                "relatedNodes": [
+                  {
+                    "html": "<button class=\"pf-c-notification-drawer__group-toggle\" aria-expanded=\"false\">",
+                    "target": [
+                      ".query-pf-c-notification-drawer__group:nth-child(1) > .pf-c-notification-drawer__group-toggle"
+                    ]
+                  },
+                  {
+                    "html": "<button class=\"pf-c-notification-drawer__group-toggle\" aria-expanded=\"true\">",
+                    "target": [
+                      ".query-pf-c-notification-drawer__group.pf-m-expanded > .pf-c-notification-drawer__group-toggle"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Focusable content should be disabled or be removed from the DOM"
+              },
+              {
+                "id": "focusable-not-tabbable",
+                "data": null,
+                "relatedNodes": [
+                  {
+                    "html": "<li class=\"pf-c-notification-drawer__list-item pf-m-hoverable pf-m-warning\" tabindex=\"0\">",
+                    "target": [
+                      ".pf-m-warning.pf-c-notification-drawer__list-item.pf-m-hoverable:nth-child(1)"
+                    ]
+                  },
+                  {
+                    "html": "<li class=\"pf-c-notification-drawer__list-item pf-m-hoverable pf-m-warning\" tabindex=\"0\">",
+                    "target": [
+                      ".pf-m-warning.pf-c-notification-drawer__list-item.pf-m-hoverable:nth-child(2)"
+                    ]
+                  },
+                  {
+                    "html": "<li class=\"pf-c-notification-drawer__list-item pf-m-hoverable pf-m-warning\" tabindex=\"0\">",
+                    "target": [
+                      ".pf-m-warning.pf-c-notification-drawer__list-item.pf-m-hoverable:nth-child(3)"
+                    ]
+                  },
+                  {
+                    "html": "<a href=\"/monitoring/alertmanagerconfig\">Configure</a>",
+                    "target": [
+                      "a[href$=\"alertmanagerconfig\"]"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Focusable content should have tabindex='-1' or be removed from the DOM"
+              }
+            ],
+            "none": [],
+            "impact": "serious",
+            "html": "<div class=\"pf-c-drawer__panel co-notification-drawer\" hidden=\"\" aria-hidden=\"true\" aria-expanded=\"false\">",
+            "target": [
+              ".pf-c-drawer__panel"
+            ]
+          }
+        ]
+      }
+    ],
+    "time": 2.926524654
+  },
+  "/k8s/cluster/cronjobs/~new": {
+    "violations": [],
+    "time": 3.541984105
+  },
+  "/k8s/cluster/jobs/~new": {
+    "violations": [],
+    "time": 2.602672305
+  },
+  "/k8s/cluster/replicationcontrollers/~new": {
+    "violations": [],
+    "time": 3.18955155
+  },
+  "/k8s/cluster/services/~new": {
+    "violations": [],
+    "time": 2.775181735
+  },
+  "/k8s/ns/default/routes/~new/form": {
+    "violations": [],
+    "time": 3.433496597
+  },
+  "/k8s/cluster/networkpolicies/~new": {
+    "violations": [],
+    "time": 3.212145626
+  },
+  "/k8s/cluster/ingresses/~new": {
+    "violations": [],
+    "time": 3.300628184
+  },
+  "/k8s/cluster/horizontalpodautoscalers/~new": {
+    "violations": [],
+    "time": 3.127560321
+  },
+  "/k8s/cluster/persistentvolumes/~new": {
+    "violations": [],
+    "time": 3.21491874
+  },
+  "/k8s/ns/default/persistentvolumeclaims/~new/form": {
+    "violations": [],
+    "time": 3.07902176
+  },
+  "/k8s/cluster/storageclasses/~new/form": {
+    "violations": [],
+    "time": 3.17508318
+  },
+  "/k8s/cluster/buildconfigs/~new": {
+    "violations": [],
+    "time": 2.987651397
+  },
+  "/k8s/cluster/imagestreams/~new": {
+    "violations": [],
+    "time": 2.560006323
+  },
+  "/monitoring/silences": {
+    "violations": [],
+    "time": 3.362220255
+  },
+  "/monitoring/alertrules": {
+    "violations": [],
+    "time": 3.478384951
+  },
+  "/monitoring/alerts/3695674300?alertname=AlertmanagerReceiversNotConfigured&severity=warning": {
+    "violations": [],
+    "time": 3.367540163
+  },
+  "/monitoring/alerts/3374358864?alertname=ClusterMonitoringOperatorReconciliationErrors&endpoint=https&instance=10.129.0.26%3A8443&job=cluster-monitoring-operator&namespace=openshift-monitoring&pod=cluster-monitoring-operator-c795d6596-sp6mg&service=cluster-monitoring-operator&severity=warning": {
+    "violations": [],
+    "time": 3.177325071
+  },
+  "/monitoring/alerts/3727322003?alertname=ClusterOperatorDegraded&condition=Degraded&endpoint=metrics&instance=10.0.141.170%3A9099&job=cluster-version-operator&name=monitoring&namespace=openshift-cluster-version&pod=cluster-version-operator-5bcd8986d4-95w6h&reason=UpdatingPrometheusOperatorFailed&service=cluster-version-operator&severity=critical": {
+    "violations": [],
+    "time": 3.025781218
+  },
+  "/monitoring/alerts/558564529?alertname=FailingOperator&endpoint=https-metrics&exported_namespace=operand-test&instance=10.129.0.2%3A8081&job=olm-operator-metrics&name=mock-operator&namespace=openshift-operator-lifecycle-manager&phase=Failed&pod=olm-operator-6dd779dcbb-7qf6f&reason=NoOperatorGroup&service=olm-operator-metrics&severity=warning&version=0.0.0": {
+    "violations": [],
+    "time": 3.256657831
+  },
+  "/monitoring/alerts/3700904118?alertname=ClusterOperatorDown&endpoint=metrics&instance=10.0.141.170%3A9099&job=cluster-version-operator&name=monitoring&namespace=openshift-cluster-version&pod=cluster-version-operator-5bcd8986d4-95w6h&service=cluster-version-operator&severity=critical&version=4.6.0-0.ci-2020-06-23-063142": {
+    "violations": [],
+    "time": 3.596461826
+  },
+  "/k8s/cluster/user.openshift.io~v1~Group/~new": {
+    "violations": [],
+    "time": 2.874701158
+  },
+  "/k8s/cluster/serviceaccounts/~new": {
+    "violations": [],
+    "time": 2.556507932
+  },
+  "/k8s/ns/default/roles/~new": {
+    "violations": [],
+    "time": 2.607502264
+  },
+  "/k8s/cluster/rolebindings/~new": {
+    "violations": [],
+    "time": 2.963958481
+  },
+  "/k8s/cluster/limitranges/~new": {
+    "violations": [],
+    "time": 2.511194787
+  },
+  "/k8s/ns/default/resourcequotas/~new": {
+    "violations": [],
+    "time": 3.174262485
+  },
+  "/k8s/cluster/customresourcedefinitions/~new": {
+    "violations": [],
+    "time": 2.695012514
+  },
+  "/monitoring/alertmanageryaml": {
+    "violations": [],
+    "time": 3.068165087
+  },
+  "/k8s/ns/default/events": {
+    "violations": [
+      {
+        "id": "aria-hidden-focus",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag131"
+        ],
+        "description": "Ensures aria-hidden elements do not contain focusable elements",
+        "help": "ARIA hidden element must not contain focusable elements",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.5/aria-hidden-focus?application=axeAPI",
+        "nodes": [
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "focusable-disabled",
+                "data": null,
+                "relatedNodes": [
+                  {
+                    "html": "<button class=\"pf-c-notification-drawer__group-toggle\" aria-expanded=\"false\">",
+                    "target": [
+                      ".query-pf-c-notification-drawer__group:nth-child(1) > .pf-c-notification-drawer__group-toggle"
+                    ]
+                  },
+                  {
+                    "html": "<button class=\"pf-c-notification-drawer__group-toggle\" aria-expanded=\"true\">",
+                    "target": [
+                      ".query-pf-c-notification-drawer__group.pf-m-expanded > .pf-c-notification-drawer__group-toggle"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Focusable content should be disabled or be removed from the DOM"
+              },
+              {
+                "id": "focusable-not-tabbable",
+                "data": null,
+                "relatedNodes": [
+                  {
+                    "html": "<li class=\"pf-c-notification-drawer__list-item pf-m-hoverable pf-m-warning\" tabindex=\"0\">",
+                    "target": [
+                      ".pf-m-warning.pf-c-notification-drawer__list-item.pf-m-hoverable:nth-child(1)"
+                    ]
+                  },
+                  {
+                    "html": "<li class=\"pf-c-notification-drawer__list-item pf-m-hoverable pf-m-warning\" tabindex=\"0\">",
+                    "target": [
+                      ".pf-m-warning.pf-c-notification-drawer__list-item.pf-m-hoverable:nth-child(2)"
+                    ]
+                  },
+                  {
+                    "html": "<li class=\"pf-c-notification-drawer__list-item pf-m-hoverable pf-m-warning\" tabindex=\"0\">",
+                    "target": [
+                      ".pf-m-warning.pf-c-notification-drawer__list-item.pf-m-hoverable:nth-child(3)"
+                    ]
+                  },
+                  {
+                    "html": "<a href=\"/monitoring/alertmanagerconfig\">Configure</a>",
+                    "target": [
+                      "a[href$=\"alertmanagerconfig\"]"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Focusable content should have tabindex='-1' or be removed from the DOM"
+              }
+            ],
+            "none": [],
+            "impact": "serious",
+            "html": "<div class=\"pf-c-drawer__panel co-notification-drawer\" hidden=\"\" aria-hidden=\"true\" aria-expanded=\"false\">",
+            "target": [
+              ".pf-c-drawer__panel"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "heading-order",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ],
+        "description": "Ensures the order of headings is semantically correct",
+        "help": "Heading levels should only increase by one",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.5/heading-order?application=axeAPI",
+        "nodes": [
+          {
+            "any": [
+              {
+                "id": "heading-order",
+                "data": 4,
+                "relatedNodes": [
+                  {
+                    "html": "<h4 class=\"pf-c-chip-group__label\" id=\"pf-random-id-0\">Resource</h4>"
+                  }
+                ],
+                "impact": "moderate",
+                "message": "Heading order invalid"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "moderate",
+            "html": "<h4 class=\"pf-c-chip-group__label\" id=\"pf-random-id-0\">Resource</h4>",
+            "target": [
+              "#pf-random-id-0"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "list",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ],
+        "description": "Ensures that lists are structured correctly",
+        "help": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.5/list?application=axeAPI",
+        "nodes": [
+          {
+            "any": [],
+            "all": [],
+            "none": [
+              {
+                "id": "only-listitems",
+                "data": null,
+                "relatedNodes": [
+                  {
+                    "html": "<button aria-label=\"Close\" class=\"pf-c-button pf-m-plain\" type=\"button\">",
+                    "target": [
+                      "button[aria-label=\"Close\"]"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "List element has direct children that are not allowed inside <li> elements"
+              }
+            ],
+            "impact": "serious",
+            "html": "<ul class=\"pf-c-chip-group\">",
+            "target": [
+              "li > .pf-c-chip-group"
+            ]
+          }
+        ]
+      }
+    ],
+    "time": 3.591491178
+  },
+  "/k8s/ns/default/operators.coreos.com~v1alpha1~ClusterServiceVersion": {
+    "violations": [],
+    "time": 2.995500698
+  },
+  "/k8s/ns/default/pods": {
+    "violations": [
+      {
+        "id": "aria-hidden-focus",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag131"
+        ],
+        "description": "Ensures aria-hidden elements do not contain focusable elements",
+        "help": "ARIA hidden element must not contain focusable elements",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.5/aria-hidden-focus?application=axeAPI",
+        "nodes": [
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "focusable-disabled",
+                "data": null,
+                "relatedNodes": [
+                  {
+                    "html": "<button class=\"pf-c-notification-drawer__group-toggle\" aria-expanded=\"false\">",
+                    "target": [
+                      ".query-pf-c-notification-drawer__group:nth-child(1) > .pf-c-notification-drawer__group-toggle"
+                    ]
+                  },
+                  {
+                    "html": "<button class=\"pf-c-notification-drawer__group-toggle\" aria-expanded=\"true\">",
+                    "target": [
+                      ".query-pf-c-notification-drawer__group.pf-m-expanded > .pf-c-notification-drawer__group-toggle"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Focusable content should be disabled or be removed from the DOM"
+              },
+              {
+                "id": "focusable-not-tabbable",
+                "data": null,
+                "relatedNodes": [
+                  {
+                    "html": "<li class=\"pf-c-notification-drawer__list-item pf-m-hoverable pf-m-warning\" tabindex=\"0\">",
+                    "target": [
+                      ".pf-m-warning.pf-c-notification-drawer__list-item.pf-m-hoverable:nth-child(1)"
+                    ]
+                  },
+                  {
+                    "html": "<li class=\"pf-c-notification-drawer__list-item pf-m-hoverable pf-m-warning\" tabindex=\"0\">",
+                    "target": [
+                      ".pf-m-warning.pf-c-notification-drawer__list-item.pf-m-hoverable:nth-child(2)"
+                    ]
+                  },
+                  {
+                    "html": "<li class=\"pf-c-notification-drawer__list-item pf-m-hoverable pf-m-warning\" tabindex=\"0\">",
+                    "target": [
+                      ".pf-m-warning.pf-c-notification-drawer__list-item.pf-m-hoverable:nth-child(3)"
+                    ]
+                  },
+                  {
+                    "html": "<a href=\"/monitoring/alertmanagerconfig\">Configure</a>",
+                    "target": [
+                      "a[href$=\"alertmanagerconfig\"]"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Focusable content should have tabindex='-1' or be removed from the DOM"
+              }
+            ],
+            "none": [],
+            "impact": "serious",
+            "html": "<div class=\"pf-c-drawer__panel co-notification-drawer\" hidden=\"\" aria-hidden=\"true\" aria-expanded=\"false\">",
+            "target": [
+              ".pf-c-drawer__panel"
+            ]
+          }
+        ]
+      }
+    ],
+    "time": 2.9043926989999997
+  },
+  "/k8s/ns/default/deployments": {
+    "violations": [],
+    "time": 3.204784713
+  },
+  "/k8s/ns/default/deploymentconfigs": {
+    "violations": [],
+    "time": 3.84194132
+  },
+  "/k8s/ns/default/secrets": {
+    "violations": [],
+    "time": 3.148201864
+  },
+  "/k8s/ns/default/statefulsets": {
+    "violations": [],
+    "time": 3.060282265
+  },
+  "/k8s/ns/default/configmaps": {
+    "violations": [],
+    "time": 3.774759683
+  },
+  "/k8s/ns/default/cronjobs": {
+    "violations": [],
+    "time": 2.873439012
+  },
+  "/k8s/ns/default/jobs": {
+    "violations": [
+      {
+        "id": "aria-hidden-focus",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag131"
+        ],
+        "description": "Ensures aria-hidden elements do not contain focusable elements",
+        "help": "ARIA hidden element must not contain focusable elements",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.5/aria-hidden-focus?application=axeAPI",
+        "nodes": [
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "focusable-disabled",
+                "data": null,
+                "relatedNodes": [
+                  {
+                    "html": "<button class=\"pf-c-notification-drawer__group-toggle\" aria-expanded=\"false\">",
+                    "target": [
+                      ".query-pf-c-notification-drawer__group:nth-child(1) > .pf-c-notification-drawer__group-toggle"
+                    ]
+                  },
+                  {
+                    "html": "<button class=\"pf-c-notification-drawer__group-toggle\" aria-expanded=\"true\">",
+                    "target": [
+                      ".query-pf-c-notification-drawer__group.pf-m-expanded > .pf-c-notification-drawer__group-toggle"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Focusable content should be disabled or be removed from the DOM"
+              },
+              {
+                "id": "focusable-not-tabbable",
+                "data": null,
+                "relatedNodes": [
+                  {
+                    "html": "<li class=\"pf-c-notification-drawer__list-item pf-m-hoverable pf-m-warning\" tabindex=\"0\">",
+                    "target": [
+                      ".pf-m-warning.pf-c-notification-drawer__list-item.pf-m-hoverable:nth-child(1)"
+                    ]
+                  },
+                  {
+                    "html": "<li class=\"pf-c-notification-drawer__list-item pf-m-hoverable pf-m-warning\" tabindex=\"0\">",
+                    "target": [
+                      ".pf-m-warning.pf-c-notification-drawer__list-item.pf-m-hoverable:nth-child(2)"
+                    ]
+                  },
+                  {
+                    "html": "<li class=\"pf-c-notification-drawer__list-item pf-m-hoverable pf-m-warning\" tabindex=\"0\">",
+                    "target": [
+                      ".pf-m-warning.pf-c-notification-drawer__list-item.pf-m-hoverable:nth-child(3)"
+                    ]
+                  },
+                  {
+                    "html": "<a href=\"/monitoring/alertmanagerconfig\">Configure</a>",
+                    "target": [
+                      "a[href$=\"alertmanagerconfig\"]"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Focusable content should have tabindex='-1' or be removed from the DOM"
+              }
+            ],
+            "none": [],
+            "impact": "serious",
+            "html": "<div class=\"pf-c-drawer__panel co-notification-drawer\" hidden=\"\" aria-hidden=\"true\" aria-expanded=\"false\">",
+            "target": [
+              ".pf-c-drawer__panel"
+            ]
+          }
+        ]
+      }
+    ],
+    "time": 4.237285038
+  },
+  "/k8s/ns/default/daemonsets": {
+    "violations": [],
+    "time": 4.005941019
+  },
+  "/k8s/ns/default/replicasets": {
+    "violations": [],
+    "time": 4.165303403
+  },
+  "/k8s/ns/default/replicationcontrollers": {
+    "violations": [],
+    "time": 3.367036014
+  },
+  "/k8s/ns/default/routes": {
+    "violations": [],
+    "time": 2.940272325
+  },
+  "/k8s/ns/default/ingresses": {
+    "violations": [],
+    "time": 3.667439662
+  },
+  "/k8s/ns/default/services": {
+    "violations": [],
+    "time": 4.059907872
+  },
+  "/k8s/ns/default/horizontalpodautoscalers": {
+    "violations": [],
+    "time": 4.059041714
+  },
+  "/k8s/ns/default/networkpolicies": {
+    "violations": [],
+    "time": 3.275448106
+  },
+  "/k8s/ns/default/buildconfigs": {
+    "violations": [
+      {
+        "id": "aria-hidden-focus",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag131"
+        ],
+        "description": "Ensures aria-hidden elements do not contain focusable elements",
+        "help": "ARIA hidden element must not contain focusable elements",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.5/aria-hidden-focus?application=axeAPI",
+        "nodes": [
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "focusable-disabled",
+                "data": null,
+                "relatedNodes": [
+                  {
+                    "html": "<button class=\"pf-c-notification-drawer__group-toggle\" aria-expanded=\"false\">",
+                    "target": [
+                      ".query-pf-c-notification-drawer__group:nth-child(1) > .pf-c-notification-drawer__group-toggle"
+                    ]
+                  },
+                  {
+                    "html": "<button class=\"pf-c-notification-drawer__group-toggle\" aria-expanded=\"true\">",
+                    "target": [
+                      ".query-pf-c-notification-drawer__group.pf-m-expanded > .pf-c-notification-drawer__group-toggle"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Focusable content should be disabled or be removed from the DOM"
+              },
+              {
+                "id": "focusable-not-tabbable",
+                "data": null,
+                "relatedNodes": [
+                  {
+                    "html": "<li class=\"pf-c-notification-drawer__list-item pf-m-hoverable pf-m-warning\" tabindex=\"0\">",
+                    "target": [
+                      ".pf-m-warning.pf-c-notification-drawer__list-item.pf-m-hoverable:nth-child(1)"
+                    ]
+                  },
+                  {
+                    "html": "<li class=\"pf-c-notification-drawer__list-item pf-m-hoverable pf-m-warning\" tabindex=\"0\">",
+                    "target": [
+                      ".pf-m-warning.pf-c-notification-drawer__list-item.pf-m-hoverable:nth-child(2)"
+                    ]
+                  },
+                  {
+                    "html": "<li class=\"pf-c-notification-drawer__list-item pf-m-hoverable pf-m-warning\" tabindex=\"0\">",
+                    "target": [
+                      ".pf-m-warning.pf-c-notification-drawer__list-item.pf-m-hoverable:nth-child(3)"
+                    ]
+                  },
+                  {
+                    "html": "<a href=\"/monitoring/alertmanagerconfig\">Configure</a>",
+                    "target": [
+                      "a[href$=\"alertmanagerconfig\"]"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Focusable content should have tabindex='-1' or be removed from the DOM"
+              }
+            ],
+            "none": [],
+            "impact": "serious",
+            "html": "<div class=\"pf-c-drawer__panel co-notification-drawer\" hidden=\"\" aria-hidden=\"true\" aria-expanded=\"false\">",
+            "target": [
+              ".pf-c-drawer__panel"
+            ]
+          }
+        ]
+      }
+    ],
+    "time": 3.219085973
+  },
+  "/k8s/ns/default/persistentvolumeclaims": {
+    "violations": [],
+    "time": 3.700041451
+  },
+  "/k8s/ns/default/builds": {
+    "violations": [],
+    "time": 3.911723555
+  },
+  "/k8s/ns/default/serviceaccounts": {
+    "violations": [],
+    "time": 2.972346016
+  },
+  "/k8s/ns/default/imagestreams": {
+    "violations": [],
+    "time": 3.402373403
+  },
+  "/k8s/ns/default/rolebindings": {
+    "violations": [],
+    "time": 3.061958538
+  },
+  "/k8s/ns/default/roles": {
+    "violations": [],
+    "time": 3.706942954
+  },
+  "/k8s/ns/default/resourcequotas": {
+    "violations": [],
+    "time": 3.907846764
+  },
+  "/k8s/ns/default/limitranges": {
+    "violations": [
+      {
+        "id": "aria-hidden-focus",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag131"
+        ],
+        "description": "Ensures aria-hidden elements do not contain focusable elements",
+        "help": "ARIA hidden element must not contain focusable elements",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.5/aria-hidden-focus?application=axeAPI",
+        "nodes": [
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "focusable-disabled",
+                "data": null,
+                "relatedNodes": [
+                  {
+                    "html": "<button class=\"pf-c-notification-drawer__group-toggle\" aria-expanded=\"false\">",
+                    "target": [
+                      ".query-pf-c-notification-drawer__group:nth-child(1) > .pf-c-notification-drawer__group-toggle"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Focusable content should be disabled or be removed from the DOM"
+              }
+            ],
+            "none": [],
+            "impact": "serious",
+            "html": "<div class=\"pf-c-drawer__panel co-notification-drawer\" hidden=\"\" aria-hidden=\"true\" aria-expanded=\"false\">",
+            "target": [
+              ".pf-c-drawer__panel"
+            ]
+          }
+        ]
+      }
+    ],
+    "time": 3.3396555279999998
+  },
+  "/k8s/ns/default/routes/~new": {
+    "violations": [],
+    "time": 3.318001598
+  },
+  "/k8s/ns/default/persistentvolumeclaims/~new": {
+    "violations": [],
+    "time": 3.538685119
+  },
+  "/monitoring/silences/~new": {
+    "violations": [],
+    "time": 3.461477731
+  },
+  "/monitoring/alertrules/3702945689": {
+    "violations": [],
+    "time": 3.5870003070000003
+  },
+  "/monitoring/alertrules/1554595790": {
+    "violations": [],
+    "time": 3.642500132
+  },
+  "/monitoring/alertrules/3067286050": {
+    "violations": [],
+    "time": 4.027386438
+  },
+  "/monitoring/alertrules/139597431": {
+    "violations": [
+      {
+        "id": "aria-hidden-focus",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag131"
+        ],
+        "description": "Ensures aria-hidden elements do not contain focusable elements",
+        "help": "ARIA hidden element must not contain focusable elements",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.5/aria-hidden-focus?application=axeAPI",
+        "nodes": [
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "focusable-disabled",
+                "data": null,
+                "relatedNodes": [
+                  {
+                    "html": "<button class=\"pf-c-notification-drawer__group-toggle\" aria-expanded=\"false\">",
+                    "target": [
+                      ".pf-c-notification-drawer__group-toggle"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Focusable content should be disabled or be removed from the DOM"
+              }
+            ],
+            "none": [],
+            "impact": "serious",
+            "html": "<div class=\"pf-c-drawer__panel co-notification-drawer\" hidden=\"\" aria-hidden=\"true\" aria-expanded=\"false\">",
+            "target": [
+              ".pf-c-drawer__panel"
+            ]
+          }
+        ]
+      }
+    ],
+    "time": 3.021232131
+  },
+  "/monitoring/alertrules/127894324": {
+    "violations": [],
+    "time": 3.399217909
+  },
+  "/monitoring/alertrules/3695674300": {
+    "violations": [],
+    "time": 4.227115001
+  },
+  "/monitoring/query-browser?query0=cluster%3Aalertmanager_routing_enabled%3Amax%20%3D%3D%200": {
+    "violations": [
+      {
+        "id": "button-name",
+        "impact": "critical",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "section508",
+          "section508.22.a"
+        ],
+        "description": "Ensures buttons have discernible text",
+        "help": "Buttons must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.5/button-name?application=axeAPI",
+        "nodes": [
+          {
+            "any": [
+              {
+                "id": "button-has-visible-text",
+                "data": "",
+                "relatedNodes": [
+                  {
+                    "html": "<button aria-haspopup=\"true\" type=\"button\" class=\"pf-c-dropdown__toggle\" id=\"metrics-dropdown\">"
+                  }
+                ],
+                "impact": "critical",
+                "message": "Element does not have inner text that is visible to screen readers"
+              },
+              {
+                "id": "aria-label",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "aria-label attribute does not exist or is empty"
+              },
+              {
+                "id": "aria-labelledby",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+              },
+              {
+                "id": "role-presentation",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "minor",
+                "message": "Element's default semantics were not overridden with role=\"presentation\""
+              },
+              {
+                "id": "role-none",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "minor",
+                "message": "Element's default semantics were not overridden with role=\"none\""
+              },
+              {
+                "id": "non-empty-title",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has no title attribute or the title attribute is empty"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "critical",
+            "html": "<button aria-haspopup=\"true\" type=\"button\" class=\"pf-c-dropdown__toggle\" id=\"metrics-dropdown\">",
+            "target": [
+              "#metrics-dropdown"
+            ]
+          }
+        ]
+      }
+    ],
+    "time": 3.389997627
+  },
+  "/monitoring/alertrules/3940896234": {
+    "violations": [],
+    "time": 4.062238199
+  },
+  "/monitoring/query-browser?query0=rate(cluster_monitoring_operator_reconcile_errors_total%5B15m%5D)%20*%20100%20%2F%20rate(cluster_monitoring_operator_reconcile_attempts_total%5B15m%5D)%20%3E%2010": {
+    "violations": [
+      {
+        "id": "button-name",
+        "impact": "critical",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "section508",
+          "section508.22.a"
+        ],
+        "description": "Ensures buttons have discernible text",
+        "help": "Buttons must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.5/button-name?application=axeAPI",
+        "nodes": [
+          {
+            "any": [
+              {
+                "id": "button-has-visible-text",
+                "data": "",
+                "relatedNodes": [
+                  {
+                    "html": "<button aria-haspopup=\"true\" type=\"button\" class=\"pf-c-dropdown__toggle\" id=\"metrics-dropdown\">"
+                  }
+                ],
+                "impact": "critical",
+                "message": "Element does not have inner text that is visible to screen readers"
+              },
+              {
+                "id": "aria-label",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "aria-label attribute does not exist or is empty"
+              },
+              {
+                "id": "aria-labelledby",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+              },
+              {
+                "id": "role-presentation",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "minor",
+                "message": "Element's default semantics were not overridden with role=\"presentation\""
+              },
+              {
+                "id": "role-none",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "minor",
+                "message": "Element's default semantics were not overridden with role=\"none\""
+              },
+              {
+                "id": "non-empty-title",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has no title attribute or the title attribute is empty"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "critical",
+            "html": "<button aria-haspopup=\"true\" type=\"button\" class=\"pf-c-dropdown__toggle\" id=\"metrics-dropdown\">",
+            "target": [
+              "#metrics-dropdown"
+            ]
+          }
+        ]
+      }
+    ],
+    "time": 3.477012154
+  },
+  "/monitoring/alertrules/3374358864": {
+    "violations": [],
+    "time": 4.2055664759999996
+  },
+  "/monitoring/query-browser?query0=csv_abnormal%7Bphase%3D%22Failed%22%7D": {
+    "violations": [
+      {
+        "id": "button-name",
+        "impact": "critical",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "section508",
+          "section508.22.a"
+        ],
+        "description": "Ensures buttons have discernible text",
+        "help": "Buttons must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.5/button-name?application=axeAPI",
+        "nodes": [
+          {
+            "any": [
+              {
+                "id": "button-has-visible-text",
+                "data": "",
+                "relatedNodes": [
+                  {
+                    "html": "<button aria-haspopup=\"true\" type=\"button\" class=\"pf-c-dropdown__toggle\" id=\"metrics-dropdown\">"
+                  }
+                ],
+                "impact": "critical",
+                "message": "Element does not have inner text that is visible to screen readers"
+              },
+              {
+                "id": "aria-label",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "aria-label attribute does not exist or is empty"
+              },
+              {
+                "id": "aria-labelledby",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+              },
+              {
+                "id": "role-presentation",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "minor",
+                "message": "Element's default semantics were not overridden with role=\"presentation\""
+              },
+              {
+                "id": "role-none",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "minor",
+                "message": "Element's default semantics were not overridden with role=\"none\""
+              },
+              {
+                "id": "non-empty-title",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has no title attribute or the title attribute is empty"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "critical",
+            "html": "<button aria-haspopup=\"true\" type=\"button\" class=\"pf-c-dropdown__toggle\" id=\"metrics-dropdown\">",
+            "target": [
+              "#metrics-dropdown"
+            ]
+          }
+        ]
+      }
+    ],
+    "time": 3.856936751
+  },
+  "/monitoring/alertrules/558564529": {
+    "violations": [
+      {
+        "id": "aria-hidden-focus",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag131"
+        ],
+        "description": "Ensures aria-hidden elements do not contain focusable elements",
+        "help": "ARIA hidden element must not contain focusable elements",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.5/aria-hidden-focus?application=axeAPI",
+        "nodes": [
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "focusable-disabled",
+                "data": null,
+                "relatedNodes": [
+                  {
+                    "html": "<button class=\"pf-c-notification-drawer__group-toggle\" aria-expanded=\"false\">",
+                    "target": [
+                      ".query-pf-c-notification-drawer__group:nth-child(1) > .pf-c-notification-drawer__group-toggle"
+                    ]
+                  },
+                  {
+                    "html": "<button class=\"pf-c-notification-drawer__group-toggle\" aria-expanded=\"true\">",
+                    "target": [
+                      ".query-pf-c-notification-drawer__group.pf-m-expanded > .pf-c-notification-drawer__group-toggle"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Focusable content should be disabled or be removed from the DOM"
+              },
+              {
+                "id": "focusable-not-tabbable",
+                "data": null,
+                "relatedNodes": [
+                  {
+                    "html": "<li class=\"pf-c-notification-drawer__list-item pf-m-hoverable pf-m-warning\" tabindex=\"0\">",
+                    "target": [
+                      ".pf-m-warning.pf-c-notification-drawer__list-item.pf-m-hoverable:nth-child(1)"
+                    ]
+                  },
+                  {
+                    "html": "<li class=\"pf-c-notification-drawer__list-item pf-m-hoverable pf-m-warning\" tabindex=\"0\">",
+                    "target": [
+                      ".pf-m-warning.pf-c-notification-drawer__list-item.pf-m-hoverable:nth-child(2)"
+                    ]
+                  },
+                  {
+                    "html": "<li class=\"pf-c-notification-drawer__list-item pf-m-hoverable pf-m-warning\" tabindex=\"0\">",
+                    "target": [
+                      ".pf-m-warning.pf-c-notification-drawer__list-item.pf-m-hoverable:nth-child(3)"
+                    ]
+                  },
+                  {
+                    "html": "<a href=\"/monitoring/alertmanagerconfig\">Configure</a>",
+                    "target": [
+                      "a[href$=\"alertmanagerconfig\"]"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Focusable content should have tabindex='-1' or be removed from the DOM"
+              }
+            ],
+            "none": [],
+            "impact": "serious",
+            "html": "<div class=\"pf-c-drawer__panel co-notification-drawer\" hidden=\"\" aria-hidden=\"true\" aria-expanded=\"false\">",
+            "target": [
+              ".pf-c-drawer__panel"
+            ]
+          }
+        ]
+      }
+    ],
+    "time": 3.180738193
+  },
+  "/monitoring/query-browser?query0=cluster_operator_up%7Bjob%3D%22cluster-version-operator%22%7D%20%3D%3D%200": {
+    "violations": [
+      {
+        "id": "button-name",
+        "impact": "critical",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "section508",
+          "section508.22.a"
+        ],
+        "description": "Ensures buttons have discernible text",
+        "help": "Buttons must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.5/button-name?application=axeAPI",
+        "nodes": [
+          {
+            "any": [
+              {
+                "id": "button-has-visible-text",
+                "data": "",
+                "relatedNodes": [
+                  {
+                    "html": "<button aria-haspopup=\"true\" type=\"button\" class=\"pf-c-dropdown__toggle\" id=\"metrics-dropdown\">"
+                  }
+                ],
+                "impact": "critical",
+                "message": "Element does not have inner text that is visible to screen readers"
+              },
+              {
+                "id": "aria-label",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "aria-label attribute does not exist or is empty"
+              },
+              {
+                "id": "aria-labelledby",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+              },
+              {
+                "id": "role-presentation",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "minor",
+                "message": "Element's default semantics were not overridden with role=\"presentation\""
+              },
+              {
+                "id": "role-none",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "minor",
+                "message": "Element's default semantics were not overridden with role=\"none\""
+              },
+              {
+                "id": "non-empty-title",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has no title attribute or the title attribute is empty"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "critical",
+            "html": "<button aria-haspopup=\"true\" type=\"button\" class=\"pf-c-dropdown__toggle\" id=\"metrics-dropdown\">",
+            "target": [
+              "#metrics-dropdown"
+            ]
+          }
+        ]
+      }
+    ],
+    "time": 3.819755203
+  },
+  "/monitoring/alertrules/3700904118": {
+    "violations": [],
+    "time": 3.613547558
+  },
+  "/monitoring/query-browser?query0=cluster_operator_conditions%7Bcondition%3D%22Degraded%22%2Cjob%3D%22cluster-version-operator%22%7D%20%3D%3D%201": {
+    "violations": [
+      {
+        "id": "button-name",
+        "impact": "critical",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "section508",
+          "section508.22.a"
+        ],
+        "description": "Ensures buttons have discernible text",
+        "help": "Buttons must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.5/button-name?application=axeAPI",
+        "nodes": [
+          {
+            "any": [
+              {
+                "id": "button-has-visible-text",
+                "data": "",
+                "relatedNodes": [
+                  {
+                    "html": "<button aria-haspopup=\"true\" type=\"button\" class=\"pf-c-dropdown__toggle\" id=\"metrics-dropdown\">"
+                  }
+                ],
+                "impact": "critical",
+                "message": "Element does not have inner text that is visible to screen readers"
+              },
+              {
+                "id": "aria-label",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "aria-label attribute does not exist or is empty"
+              },
+              {
+                "id": "aria-labelledby",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+              },
+              {
+                "id": "role-presentation",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "minor",
+                "message": "Element's default semantics were not overridden with role=\"presentation\""
+              },
+              {
+                "id": "role-none",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "minor",
+                "message": "Element's default semantics were not overridden with role=\"none\""
+              },
+              {
+                "id": "non-empty-title",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has no title attribute or the title attribute is empty"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "critical",
+            "html": "<button aria-haspopup=\"true\" type=\"button\" class=\"pf-c-dropdown__toggle\" id=\"metrics-dropdown\">",
+            "target": [
+              "#metrics-dropdown"
+            ]
+          }
+        ]
+      }
+    ],
+    "time": 3.956838239
+  },
+  "/k8s/cluster/nodes/ip-10-0-150-106.ec2.internal": {
+    "violations": [],
+    "time": 1.7102430690000001
+  },
+  "/monitoring/alertrules/3727322003": {
+    "violations": [],
+    "time": 3.436952498
+  },
+  "/k8s/cluster/nodes/ip-10-0-133-151.ec2.internal": {
+    "violations": [
+      {
+        "id": "aria-hidden-focus",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag131"
+        ],
+        "description": "Ensures aria-hidden elements do not contain focusable elements",
+        "help": "ARIA hidden element must not contain focusable elements",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.5/aria-hidden-focus?application=axeAPI",
+        "nodes": [
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "focusable-disabled",
+                "data": null,
+                "relatedNodes": [
+                  {
+                    "html": "<button class=\"pf-c-notification-drawer__group-toggle\" aria-expanded=\"false\">",
+                    "target": [
+                      ".query-pf-c-notification-drawer__group:nth-child(1) > .pf-c-notification-drawer__group-toggle"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Focusable content should be disabled or be removed from the DOM"
+              }
+            ],
+            "none": [],
+            "impact": "serious",
+            "html": "<div class=\"pf-c-drawer__panel co-notification-drawer\" hidden=\"\" aria-hidden=\"true\" aria-expanded=\"false\">",
+            "target": [
+              ".pf-c-drawer__panel"
+            ]
+          }
+        ]
+      }
+    ],
+    "time": 4.091905685
+  },
+  "/k8s/cluster/nodes/ip-10-0-141-170.ec2.internal": {
+    "violations": [],
+    "time": 4.016037491
+  },
+  "/k8s/cluster/nodes/ip-10-0-150-19.ec2.internal": {
+    "violations": [],
+    "time": 3.53930326
+  },
+  "/k8s/cluster/nodes/ip-10-0-162-41.ec2.internal": {
+    "violations": [],
+    "time": 2.623625466
+  },
+  "/k8s/cluster/nodes/ip-10-0-168-163.ec2.internal": {
+    "violations": [],
+    "time": 2.830495671
+  },
+  "/k8s/ns/default/pods/~new": {
+    "violations": [],
+    "time": 3.025750839
+  },
+  "/k8s/ns/default/statefulsets/~new": {
+    "violations": [
+      {
+        "id": "aria-hidden-focus",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag131"
+        ],
+        "description": "Ensures aria-hidden elements do not contain focusable elements",
+        "help": "ARIA hidden element must not contain focusable elements",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.5/aria-hidden-focus?application=axeAPI",
+        "nodes": [
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "focusable-disabled",
+                "data": null,
+                "relatedNodes": [
+                  {
+                    "html": "<button class=\"pf-c-notification-drawer__group-toggle\" aria-expanded=\"false\">",
+                    "target": [
+                      ".query-pf-c-notification-drawer__group:nth-child(1) > .pf-c-notification-drawer__group-toggle"
+                    ]
+                  },
+                  {
+                    "html": "<button class=\"pf-c-notification-drawer__group-toggle\" aria-expanded=\"true\">",
+                    "target": [
+                      ".query-pf-c-notification-drawer__group.pf-m-expanded > .pf-c-notification-drawer__group-toggle"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Focusable content should be disabled or be removed from the DOM"
+              },
+              {
+                "id": "focusable-not-tabbable",
+                "data": null,
+                "relatedNodes": [
+                  {
+                    "html": "<li class=\"pf-c-notification-drawer__list-item pf-m-hoverable pf-m-warning\" tabindex=\"0\">",
+                    "target": [
+                      ".pf-m-warning.pf-c-notification-drawer__list-item.pf-m-hoverable:nth-child(1)"
+                    ]
+                  },
+                  {
+                    "html": "<li class=\"pf-c-notification-drawer__list-item pf-m-hoverable pf-m-warning\" tabindex=\"0\">",
+                    "target": [
+                      ".pf-m-warning.pf-c-notification-drawer__list-item.pf-m-hoverable:nth-child(2)"
+                    ]
+                  },
+                  {
+                    "html": "<li class=\"pf-c-notification-drawer__list-item pf-m-hoverable pf-m-warning\" tabindex=\"0\">",
+                    "target": [
+                      ".pf-m-warning.pf-c-notification-drawer__list-item.pf-m-hoverable:nth-child(3)"
+                    ]
+                  },
+                  {
+                    "html": "<a href=\"/monitoring/alertmanagerconfig\">Configure</a>",
+                    "target": [
+                      "a[href$=\"alertmanagerconfig\"]"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Focusable content should have tabindex='-1' or be removed from the DOM"
+              }
+            ],
+            "none": [],
+            "impact": "serious",
+            "html": "<div class=\"pf-c-drawer__panel co-notification-drawer\" hidden=\"\" aria-hidden=\"true\" aria-expanded=\"false\">",
+            "target": [
+              ".pf-c-drawer__panel"
+            ]
+          }
+        ]
+      }
+    ],
+    "time": 3.12968469
+  },
+  "/k8s/ns/default/deploymentconfigs/~new": {
+    "violations": [],
+    "time": 3.394870289
+  },
+  "/k8s/ns/default/deployments/~new": {
+    "violations": [],
+    "time": 3.678462728
+  },
+  "/k8s/ns/default/configmaps/~new": {
+    "violations": [
+      {
+        "id": "aria-hidden-focus",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag131"
+        ],
+        "description": "Ensures aria-hidden elements do not contain focusable elements",
+        "help": "ARIA hidden element must not contain focusable elements",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.5/aria-hidden-focus?application=axeAPI",
+        "nodes": [
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "focusable-disabled",
+                "data": null,
+                "relatedNodes": [
+                  {
+                    "html": "<button class=\"pf-c-notification-drawer__group-toggle\" aria-expanded=\"false\">",
+                    "target": [
+                      ".query-pf-c-notification-drawer__group:nth-child(1) > .pf-c-notification-drawer__group-toggle"
+                    ]
+                  },
+                  {
+                    "html": "<button class=\"pf-c-notification-drawer__group-toggle\" aria-expanded=\"true\">",
+                    "target": [
+                      ".query-pf-c-notification-drawer__group.pf-m-expanded > .pf-c-notification-drawer__group-toggle"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Focusable content should be disabled or be removed from the DOM"
+              },
+              {
+                "id": "focusable-not-tabbable",
+                "data": null,
+                "relatedNodes": [
+                  {
+                    "html": "<li class=\"pf-c-notification-drawer__list-item pf-m-hoverable pf-m-warning\" tabindex=\"0\">",
+                    "target": [
+                      ".pf-m-warning.pf-c-notification-drawer__list-item.pf-m-hoverable:nth-child(1)"
+                    ]
+                  },
+                  {
+                    "html": "<li class=\"pf-c-notification-drawer__list-item pf-m-hoverable pf-m-warning\" tabindex=\"0\">",
+                    "target": [
+                      ".pf-m-warning.pf-c-notification-drawer__list-item.pf-m-hoverable:nth-child(2)"
+                    ]
+                  },
+                  {
+                    "html": "<li class=\"pf-c-notification-drawer__list-item pf-m-hoverable pf-m-warning\" tabindex=\"0\">",
+                    "target": [
+                      ".pf-m-warning.pf-c-notification-drawer__list-item.pf-m-hoverable:nth-child(3)"
+                    ]
+                  },
+                  {
+                    "html": "<a href=\"/monitoring/alertmanagerconfig\">Configure</a>",
+                    "target": [
+                      "a[href$=\"alertmanagerconfig\"]"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Focusable content should have tabindex='-1' or be removed from the DOM"
+              }
+            ],
+            "none": [],
+            "impact": "serious",
+            "html": "<div class=\"pf-c-drawer__panel co-notification-drawer\" hidden=\"\" aria-hidden=\"true\" aria-expanded=\"false\">",
+            "target": [
+              ".pf-c-drawer__panel"
+            ]
+          }
+        ]
+      }
+    ],
+    "time": 3.005228156
+  },
+  "/k8s/ns/default/cronjobs/~new": {
+    "violations": [],
+    "time": 2.470121689
+  },
+  "/k8s/ns/default/jobs/~new": {
+    "violations": [],
+    "time": 3.14023896
+  },
+  "/k8s/ns/default/daemonsets/~new": {
+    "violations": [],
+    "time": 3.087849954
+  },
+  "/k8s/ns/default/ingresses/~new": {
+    "violations": [],
+    "time": 1.362285985
+  },
+  "/k8s/ns/default/replicasets/~new": {
+    "violations": [],
+    "time": 2.508164009
+  },
+  "/k8s/ns/default/replicationcontrollers/~new": {
+    "violations": [],
+    "time": 2.520193109
+  },
+  "/k8s/ns/default/services/~new": {
+    "violations": [
+      {
+        "id": "aria-hidden-focus",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag131"
+        ],
+        "description": "Ensures aria-hidden elements do not contain focusable elements",
+        "help": "ARIA hidden element must not contain focusable elements",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.5/aria-hidden-focus?application=axeAPI",
+        "nodes": [
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "focusable-disabled",
+                "data": null,
+                "relatedNodes": [
+                  {
+                    "html": "<button class=\"pf-c-notification-drawer__group-toggle\" aria-expanded=\"false\">",
+                    "target": [
+                      ".pf-c-notification-drawer__group-toggle"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Focusable content should be disabled or be removed from the DOM"
+              }
+            ],
+            "none": [],
+            "impact": "serious",
+            "html": "<div class=\"pf-c-drawer__panel co-notification-drawer\" hidden=\"\" aria-hidden=\"true\" aria-expanded=\"false\">",
+            "target": [
+              ".pf-c-drawer__panel"
+            ]
+          }
+        ]
+      }
+    ],
+    "time": 3.200393068
+  },
+  "/k8s/ns/default/horizontalpodautoscalers/~new": {
+    "violations": [],
+    "time": 4.579219727
+  },
+  "/k8s/ns/default/networkpolicies/~new": {
+    "violations": [],
+    "time": 3.020097996
+  },
+  "/k8s/ns/default/buildconfigs/~new": {
+    "violations": [],
+    "time": 2.6186314
+  },
+  "/k8s/ns/default/serviceaccounts/~new": {
+    "violations": [],
+    "time": 3.171739453
+  },
+  "/k8s/ns/default/imagestreams/~new": {
+    "violations": [],
+    "time": 2.306829492
+  },
+  "/k8s/ns/default/limitranges/~new": {
+    "violations": [
+      {
+        "id": "aria-hidden-focus",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag131"
+        ],
+        "description": "Ensures aria-hidden elements do not contain focusable elements",
+        "help": "ARIA hidden element must not contain focusable elements",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.5/aria-hidden-focus?application=axeAPI",
+        "nodes": [
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "focusable-disabled",
+                "data": null,
+                "relatedNodes": [
+                  {
+                    "html": "<button class=\"pf-c-notification-drawer__group-toggle\" aria-expanded=\"false\">",
+                    "target": [
+                      ".pf-c-notification-drawer__group-toggle"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Focusable content should be disabled or be removed from the DOM"
+              }
+            ],
+            "none": [],
+            "impact": "serious",
+            "html": "<div class=\"pf-c-drawer__panel co-notification-drawer\" hidden=\"\" aria-hidden=\"true\" aria-expanded=\"false\">",
+            "target": [
+              ".pf-c-drawer__panel"
+            ]
+          }
+        ]
+      }
+    ],
+    "time": 2.478703064
+  },
+  "/monitoring/query-browser?query0=sum%20by(name%2C%20namespace)%20(sum_over_time(aggregator_unavailable_apiservice%5B5m%5D))%20%3E%200": {
+    "violations": [
+      {
+        "id": "button-name",
+        "impact": "critical",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "section508",
+          "section508.22.a"
+        ],
+        "description": "Ensures buttons have discernible text",
+        "help": "Buttons must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.5/button-name?application=axeAPI",
+        "nodes": [
+          {
+            "any": [
+              {
+                "id": "button-has-visible-text",
+                "data": "",
+                "relatedNodes": [
+                  {
+                    "html": "<button aria-haspopup=\"true\" type=\"button\" class=\"pf-c-dropdown__toggle\" id=\"metrics-dropdown\">"
+                  }
+                ],
+                "impact": "critical",
+                "message": "Element does not have inner text that is visible to screen readers"
+              },
+              {
+                "id": "aria-label",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "aria-label attribute does not exist or is empty"
+              },
+              {
+                "id": "aria-labelledby",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+              },
+              {
+                "id": "role-presentation",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "minor",
+                "message": "Element's default semantics were not overridden with role=\"presentation\""
+              },
+              {
+                "id": "role-none",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "minor",
+                "message": "Element's default semantics were not overridden with role=\"none\""
+              },
+              {
+                "id": "non-empty-title",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has no title attribute or the title attribute is empty"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "critical",
+            "html": "<button aria-haspopup=\"true\" type=\"button\" class=\"pf-c-dropdown__toggle\" id=\"metrics-dropdown\">",
+            "target": [
+              "#metrics-dropdown"
+            ]
+          }
+        ]
+      }
+    ],
+    "time": 2.893108537
+  },
+  "/monitoring/query-browser?query0=count_values%20by(service)%20(%22config_hash%22%2C%20alertmanager_config_hash%7Bjob%3D%22alertmanager-main%22%2Cnamespace%3D%22openshift-monitoring%22%7D)%20%2F%20on(service)%20group_left()%20label_replace(max%20by(name%2C%20job%2C%20namespace%2C%20controller)%20(prometheus_operator_spec_replicas%7Bcontroller%3D%22alertmanager%22%2Cjob%3D%22prometheus-operator%22%2Cnamespace%3D%22openshift-monitoring%22%7D)%2C%20%22service%22%2C%20%22alertmanager-%241%22%2C%20%22name%22%2C%20%22(.*)%22)%20!%3D%201": {
+    "violations": [
+      {
+        "id": "button-name",
+        "impact": "critical",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "section508",
+          "section508.22.a"
+        ],
+        "description": "Ensures buttons have discernible text",
+        "help": "Buttons must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.5/button-name?application=axeAPI",
+        "nodes": [
+          {
+            "any": [
+              {
+                "id": "button-has-visible-text",
+                "data": "",
+                "relatedNodes": [
+                  {
+                    "html": "<button aria-haspopup=\"true\" type=\"button\" class=\"pf-c-dropdown__toggle\" id=\"metrics-dropdown\">"
+                  }
+                ],
+                "impact": "critical",
+                "message": "Element does not have inner text that is visible to screen readers"
+              },
+              {
+                "id": "aria-label",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "aria-label attribute does not exist or is empty"
+              },
+              {
+                "id": "aria-labelledby",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+              },
+              {
+                "id": "role-presentation",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "minor",
+                "message": "Element's default semantics were not overridden with role=\"presentation\""
+              },
+              {
+                "id": "role-none",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "minor",
+                "message": "Element's default semantics were not overridden with role=\"none\""
+              },
+              {
+                "id": "non-empty-title",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has no title attribute or the title attribute is empty"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "critical",
+            "html": "<button aria-haspopup=\"true\" type=\"button\" class=\"pf-c-dropdown__toggle\" id=\"metrics-dropdown\">",
+            "target": [
+              "#metrics-dropdown"
+            ]
+          }
+        ]
+      }
+    ],
+    "time": 2.485570781
+  },
+  "/monitoring/query-browser?query0=sum%20by(name%2C%20namespace)%20(increase(aggregator_unavailable_apiservice_count%5B5m%5D))%20%3E%202": {
+    "violations": [
+      {
+        "id": "button-name",
+        "impact": "critical",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "section508",
+          "section508.22.a"
+        ],
+        "description": "Ensures buttons have discernible text",
+        "help": "Buttons must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.5/button-name?application=axeAPI",
+        "nodes": [
+          {
+            "any": [
+              {
+                "id": "button-has-visible-text",
+                "data": "",
+                "relatedNodes": [
+                  {
+                    "html": "<button aria-haspopup=\"true\" type=\"button\" class=\"pf-c-dropdown__toggle\" id=\"metrics-dropdown\">"
+                  }
+                ],
+                "impact": "critical",
+                "message": "Element does not have inner text that is visible to screen readers"
+              },
+              {
+                "id": "aria-label",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "aria-label attribute does not exist or is empty"
+              },
+              {
+                "id": "aria-labelledby",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+              },
+              {
+                "id": "role-presentation",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "minor",
+                "message": "Element's default semantics were not overridden with role=\"presentation\""
+              },
+              {
+                "id": "role-none",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "minor",
+                "message": "Element's default semantics were not overridden with role=\"none\""
+              },
+              {
+                "id": "non-empty-title",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has no title attribute or the title attribute is empty"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "critical",
+            "html": "<button aria-haspopup=\"true\" type=\"button\" class=\"pf-c-dropdown__toggle\" id=\"metrics-dropdown\">",
+            "target": [
+              "#metrics-dropdown"
+            ]
+          }
+        ]
+      }
+    ],
+    "time": 3.045966301
+  },
+  "/monitoring/query-browser?query0=alertmanager_cluster_members%7Bjob%3D%22alertmanager-main%22%2Cnamespace%3D%22openshift-monitoring%22%7D%20!%3D%20on(service)%20group_left()%20count%20by(service)%20(alertmanager_cluster_members%7Bjob%3D%22alertmanager-main%22%2Cnamespace%3D%22openshift-monitoring%22%7D)": {
+    "violations": [
+      {
+        "id": "aria-hidden-focus",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag131"
+        ],
+        "description": "Ensures aria-hidden elements do not contain focusable elements",
+        "help": "ARIA hidden element must not contain focusable elements",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.5/aria-hidden-focus?application=axeAPI",
+        "nodes": [
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "focusable-disabled",
+                "data": null,
+                "relatedNodes": [
+                  {
+                    "html": "<button class=\"pf-c-notification-drawer__group-toggle\" aria-expanded=\"false\">",
+                    "target": [
+                      ".query-pf-c-notification-drawer__group:nth-child(1) > .pf-c-notification-drawer__group-toggle"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Focusable content should be disabled or be removed from the DOM"
+              }
+            ],
+            "none": [],
+            "impact": "serious",
+            "html": "<div class=\"pf-c-drawer__panel co-notification-drawer\" hidden=\"\" aria-hidden=\"true\" aria-expanded=\"false\">",
+            "target": [
+              ".pf-c-drawer__panel"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "button-name",
+        "impact": "critical",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "section508",
+          "section508.22.a"
+        ],
+        "description": "Ensures buttons have discernible text",
+        "help": "Buttons must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.5/button-name?application=axeAPI",
+        "nodes": [
+          {
+            "any": [
+              {
+                "id": "button-has-visible-text",
+                "data": "",
+                "relatedNodes": [
+                  {
+                    "html": "<button aria-haspopup=\"true\" type=\"button\" class=\"pf-c-dropdown__toggle\" id=\"metrics-dropdown\">"
+                  }
+                ],
+                "impact": "critical",
+                "message": "Element does not have inner text that is visible to screen readers"
+              },
+              {
+                "id": "aria-label",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "aria-label attribute does not exist or is empty"
+              },
+              {
+                "id": "aria-labelledby",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+              },
+              {
+                "id": "role-presentation",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "minor",
+                "message": "Element's default semantics were not overridden with role=\"presentation\""
+              },
+              {
+                "id": "role-none",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "minor",
+                "message": "Element's default semantics were not overridden with role=\"none\""
+              },
+              {
+                "id": "non-empty-title",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has no title attribute or the title attribute is empty"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "critical",
+            "html": "<button aria-haspopup=\"true\" type=\"button\" class=\"pf-c-dropdown__toggle\" id=\"metrics-dropdown\">",
+            "target": [
+              "#metrics-dropdown"
+            ]
+          }
+        ]
+      }
+    ],
+    "time": 2.1844704090000002
+  },
+  "/monitoring/query-browser?query0=alertmanager_config_last_reload_successful%7Bjob%3D%22alertmanager-main%22%2Cnamespace%3D%22openshift-monitoring%22%7D%20%3D%3D%200": {
+    "violations": [
+      {
+        "id": "aria-hidden-focus",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag131"
+        ],
+        "description": "Ensures aria-hidden elements do not contain focusable elements",
+        "help": "ARIA hidden element must not contain focusable elements",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.5/aria-hidden-focus?application=axeAPI",
+        "nodes": [
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "focusable-disabled",
+                "data": null,
+                "relatedNodes": [
+                  {
+                    "html": "<button class=\"pf-c-notification-drawer__group-toggle\" aria-expanded=\"false\">",
+                    "target": [
+                      ".query-pf-c-notification-drawer__group:nth-child(1) > .pf-c-notification-drawer__group-toggle"
+                    ]
+                  },
+                  {
+                    "html": "<button class=\"pf-c-notification-drawer__group-toggle\" aria-expanded=\"true\">",
+                    "target": [
+                      ".query-pf-c-notification-drawer__group.pf-m-expanded > .pf-c-notification-drawer__group-toggle"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Focusable content should be disabled or be removed from the DOM"
+              },
+              {
+                "id": "focusable-not-tabbable",
+                "data": null,
+                "relatedNodes": [
+                  {
+                    "html": "<li class=\"pf-c-notification-drawer__list-item pf-m-hoverable pf-m-warning\" tabindex=\"0\">",
+                    "target": [
+                      ".pf-m-warning.pf-c-notification-drawer__list-item.pf-m-hoverable:nth-child(1)"
+                    ]
+                  },
+                  {
+                    "html": "<li class=\"pf-c-notification-drawer__list-item pf-m-hoverable pf-m-warning\" tabindex=\"0\">",
+                    "target": [
+                      ".pf-m-warning.pf-c-notification-drawer__list-item.pf-m-hoverable:nth-child(2)"
+                    ]
+                  },
+                  {
+                    "html": "<li class=\"pf-c-notification-drawer__list-item pf-m-hoverable pf-m-warning\" tabindex=\"0\">",
+                    "target": [
+                      ".pf-m-warning.pf-c-notification-drawer__list-item.pf-m-hoverable:nth-child(3)"
+                    ]
+                  },
+                  {
+                    "html": "<a href=\"/monitoring/alertmanagerconfig\">Configure</a>",
+                    "target": [
+                      "a[href$=\"alertmanagerconfig\"]"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Focusable content should have tabindex='-1' or be removed from the DOM"
+              }
+            ],
+            "none": [],
+            "impact": "serious",
+            "html": "<div class=\"pf-c-drawer__panel co-notification-drawer\" hidden=\"\" aria-hidden=\"true\" aria-expanded=\"false\">",
+            "target": [
+              ".pf-c-drawer__panel"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "button-name",
+        "impact": "critical",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "section508",
+          "section508.22.a"
+        ],
+        "description": "Ensures buttons have discernible text",
+        "help": "Buttons must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.5/button-name?application=axeAPI",
+        "nodes": [
+          {
+            "any": [
+              {
+                "id": "button-has-visible-text",
+                "data": "",
+                "relatedNodes": [
+                  {
+                    "html": "<button aria-haspopup=\"true\" type=\"button\" class=\"pf-c-dropdown__toggle\" id=\"metrics-dropdown\">"
+                  }
+                ],
+                "impact": "critical",
+                "message": "Element does not have inner text that is visible to screen readers"
+              },
+              {
+                "id": "aria-label",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "aria-label attribute does not exist or is empty"
+              },
+              {
+                "id": "aria-labelledby",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+              },
+              {
+                "id": "role-presentation",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "minor",
+                "message": "Element's default semantics were not overridden with role=\"presentation\""
+              },
+              {
+                "id": "role-none",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "minor",
+                "message": "Element's default semantics were not overridden with role=\"none\""
+              },
+              {
+                "id": "non-empty-title",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has no title attribute or the title attribute is empty"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "critical",
+            "html": "<button aria-haspopup=\"true\" type=\"button\" class=\"pf-c-dropdown__toggle\" id=\"metrics-dropdown\">",
+            "target": [
+              "#metrics-dropdown"
+            ]
+          }
+        ]
+      }
+    ],
+    "time": 2.156829781
+  },
+  "/monitoring/query-browser?query0=(time()%20-%20cluster_version_operator_update_retrieval_timestamp_seconds)%20%3E%3D%203600%20and%20ignoring(condition%2C%20name%2C%20reason)%20cluster_operator_conditions%7Bcondition%3D%22RetrievedUpdates%22%2Cendpoint%3D%22metrics%22%2Cname%3D%22version%22%2Creason!%3D%22NoChannel%22%7D": {
+    "violations": [
+      {
+        "id": "aria-hidden-focus",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag131"
+        ],
+        "description": "Ensures aria-hidden elements do not contain focusable elements",
+        "help": "ARIA hidden element must not contain focusable elements",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.5/aria-hidden-focus?application=axeAPI",
+        "nodes": [
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "focusable-disabled",
+                "data": null,
+                "relatedNodes": [
+                  {
+                    "html": "<button class=\"pf-c-notification-drawer__group-toggle\" aria-expanded=\"false\">",
+                    "target": [
+                      ".pf-c-notification-drawer__group-toggle"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Focusable content should be disabled or be removed from the DOM"
+              }
+            ],
+            "none": [],
+            "impact": "serious",
+            "html": "<div class=\"pf-c-drawer__panel co-notification-drawer\" hidden=\"\" aria-hidden=\"true\" aria-expanded=\"false\">",
+            "target": [
+              ".pf-c-drawer__panel"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "button-name",
+        "impact": "critical",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "section508",
+          "section508.22.a"
+        ],
+        "description": "Ensures buttons have discernible text",
+        "help": "Buttons must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.5/button-name?application=axeAPI",
+        "nodes": [
+          {
+            "any": [
+              {
+                "id": "button-has-visible-text",
+                "data": "",
+                "relatedNodes": [
+                  {
+                    "html": "<button aria-haspopup=\"true\" type=\"button\" class=\"pf-c-dropdown__toggle\" id=\"metrics-dropdown\">"
+                  }
+                ],
+                "impact": "critical",
+                "message": "Element does not have inner text that is visible to screen readers"
+              },
+              {
+                "id": "aria-label",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "aria-label attribute does not exist or is empty"
+              },
+              {
+                "id": "aria-labelledby",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+              },
+              {
+                "id": "role-presentation",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "minor",
+                "message": "Element's default semantics were not overridden with role=\"presentation\""
+              },
+              {
+                "id": "role-none",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "minor",
+                "message": "Element's default semantics were not overridden with role=\"none\""
+              },
+              {
+                "id": "non-empty-title",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has no title attribute or the title attribute is empty"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "critical",
+            "html": "<button aria-haspopup=\"true\" type=\"button\" class=\"pf-c-dropdown__toggle\" id=\"metrics-dropdown\">",
+            "target": [
+              "#metrics-dropdown"
+            ]
+          }
+        ]
+      }
+    ],
+    "time": 1.158050886
+  }
+}

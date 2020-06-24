@@ -1,0 +1,185 @@
+<html><head><title>Protractor Test Report</title><style> #td-table, tr, td {     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;     text-align: left;     border-collapse: collapse;     font-size: small;     border: 1px solid #000000;     padding: 9px;     background-color: #CFD8DC;     margin: 10px auto;   }   #td-table-header {     font-size: 1em;     border: 1px solid #000000;     padding: 9px;     background-color: #607D8B;     color: white;  }   #td-table-spec {     background-color: #90A4AE;     color: black;   }   #td-table-test-pass {     background-color: #009688;     color: white;   }   #td-table-test-fail {     background-color: #F7464A;     color: white;   }   #td-table-test-skip {     background-color: #FFEB3B;     color: black;   }   #ts-table, #tr-ts-table, #td-ts-table {     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;     width: 95%;     text-align: left;     font-size: small;     border: none;     padding: 9px;     margin: 10px auto;     background-color: white   }   #div-ts-table {     text-align: center;     outline: thin solid;     padding: 9px;     background: #CFD8DC;     font-size: medium;   }   #stacked-bar-chart {     width: 600px;     height: 300px;   }   li {     padding-top:0px;     list-style-type: none;     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;     font-size: small;     padding: 7px;   } </style><script type="text/javascript" src="https://www.google.com/jsapi"></script>   <script type="text/javascript">     google.load("visualization", "1", {packages:["corechart"]});     google.setOnLoadCallback(drawChart);     function drawChart() {       var data = google.visualization.arrayToDataTable([         ["Genre", "Passed", "Failed", "Skipped"], ["All urls",114,42,0]]);       var options = {         width: 600,         height: 300,         legend: { position: "top", maxLines: 3 },         bar: { groupWidth: "50%" },         isStacked: true,         colors: [ "#009688", "#B71C1C", "#FFEB3B"]       };     var chart = new google.visualization.BarChart(document.getElementById("stacked-bar-chart"));     chart.draw(data, options);     }   </script></head><body><table id="ts-table"><tr id="tr-ts-table"><th colspan=2><div id="div-ts-table">Patternfly axe report</div></th></tr><tr id="tr-ts-table"><td id="td-ts-table"><div><li><b>Test Start:</b> 2020-06-24T15:35:11.301Z</li><li><b>Total Tests:</b> 156</li><li><b>Pass Rate:</b> 73.1% </li><li><b>Execution Duration:</b> 491.496 Secs</li></ul></div></td><td id="td-ts-table" rowspan=2><div id="stacked-bar-chart"></div></td></tr></table><table id="td-table"><tr><th id="td-table-header">Spec Description</th>     <th id="td-table-header">Status</th>     <th id="td-table-header">Details</th></tr><tr><td id="td-table-spec" colspan=3>All urls</td></tr><tr><td>/<td id="td-table-test-fail">Error</td><td><pre>[
+  null
+]</pre></td></tr><tr><td>/dashboards<td id="td-table-test-fail">Error</td><td><pre>[
+  null
+]</pre></td></tr><tr><td>/k8s/cluster/projects<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/api-explorer<td id="td-table-test-fail">Error</td><td><pre>[
+  null
+]</pre></td></tr><tr><td>/k8s/all-namespaces/operators.coreos.com~v1alpha1~ClusterServiceVersion<td id="td-table-test-fail">Error</td><td><pre>[
+  null
+]</pre></td></tr><tr><td>/k8s/all-namespaces/pods<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/search<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/operatorhub<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/all-namespaces/events<td id="td-table-test-fail">Error</td><td><pre>[
+  {
+    "id": "heading-order",
+    "data": 4,
+    "relatedNodes": [
+      {
+        "html": "&lth4 class="pf-c-chip-group__label" id="pf-random-id-0"&gt;Resource&lt/h4&gt;"
+      }
+    ],
+    "impact": "moderate",
+    "message": "Heading order invalid"
+  }
+]</pre></td></tr><tr><td>/k8s/all-namespaces/deploymentconfigs<td id="td-table-test-fail">Error</td><td><pre>[
+  null
+]</pre></td></tr><tr><td>/k8s/all-namespaces/deployments<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/all-namespaces/statefulsets<td id="td-table-test-fail">Error</td><td><pre>[
+  null
+]</pre></td></tr><tr><td>/k8s/all-namespaces/secrets<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/all-namespaces/jobs<td id="td-table-test-fail">Error</td><td><pre>[
+  null
+]</pre></td></tr><tr><td>/k8s/all-namespaces/configmaps<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/all-namespaces/cronjobs<td id="td-table-test-fail">Error</td><td><pre>[
+  null
+]</pre></td></tr><tr><td>/k8s/all-namespaces/daemonsets<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/all-namespaces/replicasets<td id="td-table-test-fail">Error</td><td><pre>[
+  null
+]</pre></td></tr><tr><td>/k8s/all-namespaces/replicationcontrollers<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/all-namespaces/horizontalpodautoscalers<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/all-namespaces/services<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/all-namespaces/routes<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/all-namespaces/networkpolicies<td id="td-table-test-fail">Error</td><td><pre>[
+  null
+]</pre></td></tr><tr><td>/k8s/all-namespaces/ingresses<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/cluster/persistentvolumes<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/all-namespaces/persistentvolumeclaims<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/all-namespaces/builds<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/cluster/storageclasses<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/all-namespaces/buildconfigs<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/monitoring/alerts<td id="td-table-test-fail">Error</td><td><pre>[
+  null
+]</pre></td></tr><tr><td>/k8s/all-namespaces/imagestreams<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/monitoring/query-browser?query0=<td id="td-table-test-fail">Error</td><td><pre>[
+  {
+    "id": "button-has-visible-text",
+    "data": "",
+    "relatedNodes": [
+      {
+        "html": "&ltbutton aria-haspopup="true" type="button" class="pf-c-dropdown__toggle" id="metrics-dropdown"&gt;"
+      }
+    ],
+    "impact": "critical",
+    "message": "Element does not have inner text that is visible to screen readers"
+  }
+]</pre></td></tr><tr><td>/monitoring/dashboards<td id="td-table-test-fail">Error</td><td><pre>[
+  null
+]</pre></td></tr><tr><td>/k8s/cluster/nodes<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/cluster/user.openshift.io~v1~User<td id="td-table-test-fail">Error</td><td><pre>[
+  null
+]</pre></td></tr><tr><td>/k8s/cluster/user.openshift.io~v1~Group<td id="td-table-test-fail">Error</td><td><pre>[
+  null
+]</pre></td></tr><tr><td>/k8s/all-namespaces/serviceaccounts<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/all-namespaces/roles<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/all-namespaces/rolebindings<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/cluster/namespaces<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/settings/cluster<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/all-namespaces/limitranges<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/all-namespaces/resourcequotas<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/cluster/customresourcedefinitions<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/cluster/config.openshift.io~v1~OAuth/cluster<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/catalog<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/cluster/deployments/~new<td id="td-table-test-fail">Error</td><td><pre>[
+  null
+]</pre></td></tr><tr><td>/monitoring/alertmanagerconfig<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/cluster/pods/~new<td id="td-table-test-fail">Error</td><td><pre>[
+  null
+]</pre></td></tr><tr><td>/k8s/cluster/statefulsets/~new<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/cluster/configmaps/~new<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/cluster/daemonsets/~new<td id="td-table-test-fail">Error</td><td><pre>[
+  null
+]</pre></td></tr><tr><td>/k8s/cluster/cronjobs/~new<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/cluster/jobs/~new<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/cluster/replicationcontrollers/~new<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/cluster/services/~new<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/ns/default/routes/~new/form<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/cluster/networkpolicies/~new<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/cluster/ingresses/~new<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/cluster/horizontalpodautoscalers/~new<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/cluster/persistentvolumes/~new<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/ns/default/persistentvolumeclaims/~new/form<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/cluster/storageclasses/~new/form<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/cluster/buildconfigs/~new<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/cluster/imagestreams/~new<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/monitoring/silences<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/monitoring/alertrules<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/monitoring/alerts/3695674300?alertname=AlertmanagerReceiversNotConfigured&severity=warning<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/monitoring/alerts/3374358864?alertname=ClusterMonitoringOperatorReconciliationErrors&endpoint=https&instance=10.129.0.26%3A8443&job=cluster-monitoring-operator&namespace=openshift-monitoring&pod=cluster-monitoring-operator-c795d6596-sp6mg&service=cluster-monitoring-operator&severity=warning<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/monitoring/alerts/3727322003?alertname=ClusterOperatorDegraded&condition=Degraded&endpoint=metrics&instance=10.0.141.170%3A9099&job=cluster-version-operator&name=monitoring&namespace=openshift-cluster-version&pod=cluster-version-operator-5bcd8986d4-95w6h&reason=UpdatingPrometheusOperatorFailed&service=cluster-version-operator&severity=critical<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/monitoring/alerts/558564529?alertname=FailingOperator&endpoint=https-metrics&exported_namespace=operand-test&instance=10.129.0.2%3A8081&job=olm-operator-metrics&name=mock-operator&namespace=openshift-operator-lifecycle-manager&phase=Failed&pod=olm-operator-6dd779dcbb-7qf6f&reason=NoOperatorGroup&service=olm-operator-metrics&severity=warning&version=0.0.0<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/monitoring/alerts/3700904118?alertname=ClusterOperatorDown&endpoint=metrics&instance=10.0.141.170%3A9099&job=cluster-version-operator&name=monitoring&namespace=openshift-cluster-version&pod=cluster-version-operator-5bcd8986d4-95w6h&service=cluster-version-operator&severity=critical&version=4.6.0-0.ci-2020-06-23-063142<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/cluster/user.openshift.io~v1~Group/~new<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/cluster/serviceaccounts/~new<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/ns/default/roles/~new<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/cluster/rolebindings/~new<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/cluster/limitranges/~new<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/ns/default/resourcequotas/~new<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/cluster/customresourcedefinitions/~new<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/monitoring/alertmanageryaml<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/ns/default/events<td id="td-table-test-fail">Error</td><td><pre>[
+  null
+]</pre></td></tr><tr><td>/k8s/ns/default/operators.coreos.com~v1alpha1~ClusterServiceVersion<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/ns/default/pods<td id="td-table-test-fail">Error</td><td><pre>[
+  null
+]</pre></td></tr><tr><td>/k8s/ns/default/deployments<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/ns/default/deploymentconfigs<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/ns/default/secrets<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/ns/default/statefulsets<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/ns/default/configmaps<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/ns/default/cronjobs<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/ns/default/jobs<td id="td-table-test-fail">Error</td><td><pre>[
+  null
+]</pre></td></tr><tr><td>/k8s/ns/default/daemonsets<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/ns/default/replicasets<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/ns/default/replicationcontrollers<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/ns/default/routes<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/ns/default/ingresses<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/ns/default/services<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/ns/default/horizontalpodautoscalers<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/ns/default/networkpolicies<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/ns/default/buildconfigs<td id="td-table-test-fail">Error</td><td><pre>[
+  null
+]</pre></td></tr><tr><td>/k8s/ns/default/persistentvolumeclaims<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/ns/default/builds<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/ns/default/serviceaccounts<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/ns/default/imagestreams<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/ns/default/rolebindings<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/ns/default/roles<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/ns/default/resourcequotas<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/ns/default/limitranges<td id="td-table-test-fail">Error</td><td><pre>[
+  null
+]</pre></td></tr><tr><td>/k8s/ns/default/routes/~new<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/ns/default/persistentvolumeclaims/~new<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/monitoring/silences/~new<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/monitoring/alertrules/3702945689<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/monitoring/alertrules/1554595790<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/monitoring/alertrules/3067286050<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/monitoring/alertrules/139597431<td id="td-table-test-fail">Error</td><td><pre>[
+  null
+]</pre></td></tr><tr><td>/monitoring/alertrules/127894324<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/monitoring/alertrules/3695674300<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/monitoring/query-browser?query0=cluster%3Aalertmanager_routing_enabled%3Amax%20%3D%3D%200<td id="td-table-test-fail">Error</td><td><pre>[
+  {
+    "id": "button-has-visible-text",
+    "data": "",
+    "relatedNodes": [
+      {
+        "html": "&ltbutton aria-haspopup="true" type="button" class="pf-c-dropdown__toggle" id="metrics-dropdown"&gt;"
+      }
+    ],
+    "impact": "critical",
+    "message": "Element does not have inner text that is visible to screen readers"
+  }
+]</pre></td></tr><tr><td>/monitoring/alertrules/3940896234<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/monitoring/query-browser?query0=rate(cluster_monitoring_operator_reconcile_errors_total%5B15m%5D)%20*%20100%20%2F%20rate(cluster_monitoring_operator_reconcile_attempts_total%5B15m%5D)%20%3E%2010<td id="td-table-test-fail">Error</td><td><pre>[
+  {
+    "id": "button-has-visible-text",
+    "data": "",
+    "relatedNodes": [
+      {
+        "html": "&ltbutton aria-haspopup="true" type="button" class="pf-c-dropdown__toggle" id="metrics-dropdown"&gt;"
+      }
+    ],
+    "impact": "critical",
+    "message": "Element does not have inner text that is visible to screen readers"
+  }
+]</pre></td></tr><tr><td>/monitoring/alertrules/3374358864<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/monitoring/query-browser?query0=csv_abnormal%7Bphase%3D%22Failed%22%7D<td id="td-table-test-fail">Error</td><td><pre>[
+  {
+    "id": "button-has-visible-text",
+    "data": "",
+    "relatedNodes": [
+      {
+        "html": "&ltbutton aria-haspopup="true" type="button" class="pf-c-dropdown__toggle" id="metrics-dropdown"&gt;"
+      }
+    ],
+    "impact": "critical",
+    "message": "Element does not have inner text that is visible to screen readers"
+  }
+]</pre></td></tr><tr><td>/monitoring/alertrules/558564529<td id="td-table-test-fail">Error</td><td><pre>[
+  null
+]</pre></td></tr><tr><td>/monitoring/query-browser?query0=cluster_operator_up%7Bjob%3D%22cluster-version-operator%22%7D%20%3D%3D%200<td id="td-table-test-fail">Error</td><td><pre>[
+  {
+    "id": "button-has-visible-text",
+    "data": "",
+    "relatedNodes": [
+      {
+        "html": "&ltbutton aria-haspopup="true" type="button" class="pf-c-dropdown__toggle" id="metrics-dropdown"&gt;"
+      }
+    ],
+    "impact": "critical",
+    "message": "Element does not have inner text that is visible to screen readers"
+  }
+]</pre></td></tr><tr><td>/monitoring/alertrules/3700904118<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/monitoring/query-browser?query0=cluster_operator_conditions%7Bcondition%3D%22Degraded%22%2Cjob%3D%22cluster-version-operator%22%7D%20%3D%3D%201<td id="td-table-test-fail">Error</td><td><pre>[
+  {
+    "id": "button-has-visible-text",
+    "data": "",
+    "relatedNodes": [
+      {
+        "html": "&ltbutton aria-haspopup="true" type="button" class="pf-c-dropdown__toggle" id="metrics-dropdown"&gt;"
+      }
+    ],
+    "impact": "critical",
+    "message": "Element does not have inner text that is visible to screen readers"
+  }
+]</pre></td></tr><tr><td>/k8s/cluster/nodes/ip-10-0-150-106.ec2.internal<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/monitoring/alertrules/3727322003<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/cluster/nodes/ip-10-0-133-151.ec2.internal<td id="td-table-test-fail">Error</td><td><pre>[
+  null
+]</pre></td></tr><tr><td>/k8s/cluster/nodes/ip-10-0-141-170.ec2.internal<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/cluster/nodes/ip-10-0-150-19.ec2.internal<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/cluster/nodes/ip-10-0-162-41.ec2.internal<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/cluster/nodes/ip-10-0-168-163.ec2.internal<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/ns/default/pods/~new<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/ns/default/statefulsets/~new<td id="td-table-test-fail">Error</td><td><pre>[
+  null
+]</pre></td></tr><tr><td>/k8s/ns/default/deploymentconfigs/~new<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/ns/default/deployments/~new<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/ns/default/configmaps/~new<td id="td-table-test-fail">Error</td><td><pre>[
+  null
+]</pre></td></tr><tr><td>/k8s/ns/default/cronjobs/~new<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/ns/default/jobs/~new<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/ns/default/daemonsets/~new<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/ns/default/ingresses/~new<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/ns/default/replicasets/~new<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/ns/default/replicationcontrollers/~new<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/ns/default/services/~new<td id="td-table-test-fail">Error</td><td><pre>[
+  null
+]</pre></td></tr><tr><td>/k8s/ns/default/horizontalpodautoscalers/~new<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/ns/default/networkpolicies/~new<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/ns/default/buildconfigs/~new<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/ns/default/serviceaccounts/~new<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/ns/default/imagestreams/~new<td id="td-table-test-pass">Passed</td><td></td></tr><tr><td>/k8s/ns/default/limitranges/~new<td id="td-table-test-fail">Error</td><td><pre>[
+  null
+]</pre></td></tr><tr><td>/monitoring/query-browser?query0=sum%20by(name%2C%20namespace)%20(sum_over_time(aggregator_unavailable_apiservice%5B5m%5D))%20%3E%200<td id="td-table-test-fail">Error</td><td><pre>[
+  {
+    "id": "button-has-visible-text",
+    "data": "",
+    "relatedNodes": [
+      {
+        "html": "&ltbutton aria-haspopup="true" type="button" class="pf-c-dropdown__toggle" id="metrics-dropdown"&gt;"
+      }
+    ],
+    "impact": "critical",
+    "message": "Element does not have inner text that is visible to screen readers"
+  }
+]</pre></td></tr><tr><td>/monitoring/query-browser?query0=count_values%20by(service)%20(%22config_hash%22%2C%20alertmanager_config_hash%7Bjob%3D%22alertmanager-main%22%2Cnamespace%3D%22openshift-monitoring%22%7D)%20%2F%20on(service)%20group_left()%20label_replace(max%20by(name%2C%20job%2C%20namespace%2C%20controller)%20(prometheus_operator_spec_replicas%7Bcontroller%3D%22alertmanager%22%2Cjob%3D%22prometheus-operator%22%2Cnamespace%3D%22openshift-monitoring%22%7D)%2C%20%22service%22%2C%20%22alertmanager-%241%22%2C%20%22name%22%2C%20%22(.*)%22)%20!%3D%201<td id="td-table-test-fail">Error</td><td><pre>[
+  {
+    "id": "button-has-visible-text",
+    "data": "",
+    "relatedNodes": [
+      {
+        "html": "&ltbutton aria-haspopup="true" type="button" class="pf-c-dropdown__toggle" id="metrics-dropdown"&gt;"
+      }
+    ],
+    "impact": "critical",
+    "message": "Element does not have inner text that is visible to screen readers"
+  }
+]</pre></td></tr><tr><td>/monitoring/query-browser?query0=sum%20by(name%2C%20namespace)%20(increase(aggregator_unavailable_apiservice_count%5B5m%5D))%20%3E%202<td id="td-table-test-fail">Error</td><td><pre>[
+  {
+    "id": "button-has-visible-text",
+    "data": "",
+    "relatedNodes": [
+      {
+        "html": "&ltbutton aria-haspopup="true" type="button" class="pf-c-dropdown__toggle" id="metrics-dropdown"&gt;"
+      }
+    ],
+    "impact": "critical",
+    "message": "Element does not have inner text that is visible to screen readers"
+  }
+]</pre></td></tr><tr><td>/monitoring/query-browser?query0=alertmanager_cluster_members%7Bjob%3D%22alertmanager-main%22%2Cnamespace%3D%22openshift-monitoring%22%7D%20!%3D%20on(service)%20group_left()%20count%20by(service)%20(alertmanager_cluster_members%7Bjob%3D%22alertmanager-main%22%2Cnamespace%3D%22openshift-monitoring%22%7D)<td id="td-table-test-fail">Error</td><td><pre>[
+  null
+]</pre></td></tr><tr><td>/monitoring/query-browser?query0=alertmanager_config_last_reload_successful%7Bjob%3D%22alertmanager-main%22%2Cnamespace%3D%22openshift-monitoring%22%7D%20%3D%3D%200<td id="td-table-test-fail">Error</td><td><pre>[
+  null
+]</pre></td></tr><tr><td>/monitoring/query-browser?query0=(time()%20-%20cluster_version_operator_update_retrieval_timestamp_seconds)%20%3E%3D%203600%20and%20ignoring(condition%2C%20name%2C%20reason)%20cluster_operator_conditions%7Bcondition%3D%22RetrievedUpdates%22%2Cendpoint%3D%22metrics%22%2Cname%3D%22version%22%2Creason!%3D%22NoChannel%22%7D<td id="td-table-test-fail">Error</td><td><pre>[
+  null
+]</pre></td></tr></table></body></html>

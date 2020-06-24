@@ -1,0 +1,237 @@
+<testsuites tests="156" errors="0" failures="42" skipped="0" name="Patternfly axe report" time="491.4963964900001"><testsuite tests="156" errors="0" failures="42" skipped="0" name="All urls" time="491.4963964900001" timestamp="2020-06-24T15:35:11.301Z"><testcase name="/" classname="/"><error type="violation: aria-hidden-focus">[
+  null
+]</error></testcase><testcase name="/dashboards" classname="/dashboards"><error type="violation: aria-hidden-focus">[
+  null
+]</error></testcase><testcase name="/k8s/cluster/projects" classname="/k8s/cluster/projects"></testcase><testcase name="/api-explorer" classname="/api-explorer"><error type="violation: aria-hidden-focus">[
+  null
+]</error></testcase><testcase name="/k8s/all-namespaces/operators.coreos.com~v1alpha1~ClusterServiceVersion" classname="/k8s/all-namespaces/operators.coreos.com~v1alpha1~ClusterServiceVersion"><error type="violation: aria-hidden-focus">[
+  null
+]</error></testcase><testcase name="/k8s/all-namespaces/pods" classname="/k8s/all-namespaces/pods"></testcase><testcase name="/search" classname="/search"></testcase><testcase name="/operatorhub" classname="/operatorhub"></testcase><testcase name="/k8s/all-namespaces/events" classname="/k8s/all-namespaces/events"><error type="violation: heading-order">[
+  {
+    &quot;id&quot;: &quot;heading-order&quot;,
+    &quot;data&quot;: 4,
+    &quot;relatedNodes&quot;: [
+      {
+        &quot;html&quot;: &quot;&lt;h4 class=\&quot;pf-c-chip-group__label\&quot; id=\&quot;pf-random-id-0\&quot;&gt;Resource&lt;/h4&gt;&quot;
+      }
+    ],
+    &quot;impact&quot;: &quot;moderate&quot;,
+    &quot;message&quot;: &quot;Heading order invalid&quot;
+  }
+]</error><error type="violation: list">[
+  null
+]</error></testcase><testcase name="/k8s/all-namespaces/deploymentconfigs" classname="/k8s/all-namespaces/deploymentconfigs"><error type="violation: aria-hidden-focus">[
+  null
+]</error></testcase><testcase name="/k8s/all-namespaces/deployments" classname="/k8s/all-namespaces/deployments"></testcase><testcase name="/k8s/all-namespaces/statefulsets" classname="/k8s/all-namespaces/statefulsets"><error type="violation: aria-hidden-focus">[
+  null
+]</error></testcase><testcase name="/k8s/all-namespaces/secrets" classname="/k8s/all-namespaces/secrets"></testcase><testcase name="/k8s/all-namespaces/jobs" classname="/k8s/all-namespaces/jobs"><error type="violation: aria-hidden-focus">[
+  null
+]</error></testcase><testcase name="/k8s/all-namespaces/configmaps" classname="/k8s/all-namespaces/configmaps"></testcase><testcase name="/k8s/all-namespaces/cronjobs" classname="/k8s/all-namespaces/cronjobs"><error type="violation: aria-hidden-focus">[
+  null
+]</error></testcase><testcase name="/k8s/all-namespaces/daemonsets" classname="/k8s/all-namespaces/daemonsets"></testcase><testcase name="/k8s/all-namespaces/replicasets" classname="/k8s/all-namespaces/replicasets"><error type="violation: aria-hidden-focus">[
+  null
+]</error></testcase><testcase name="/k8s/all-namespaces/replicationcontrollers" classname="/k8s/all-namespaces/replicationcontrollers"></testcase><testcase name="/k8s/all-namespaces/horizontalpodautoscalers" classname="/k8s/all-namespaces/horizontalpodautoscalers"></testcase><testcase name="/k8s/all-namespaces/services" classname="/k8s/all-namespaces/services"></testcase><testcase name="/k8s/all-namespaces/routes" classname="/k8s/all-namespaces/routes"></testcase><testcase name="/k8s/all-namespaces/networkpolicies" classname="/k8s/all-namespaces/networkpolicies"><error type="violation: aria-hidden-focus">[
+  null
+]</error></testcase><testcase name="/k8s/all-namespaces/ingresses" classname="/k8s/all-namespaces/ingresses"></testcase><testcase name="/k8s/cluster/persistentvolumes" classname="/k8s/cluster/persistentvolumes"></testcase><testcase name="/k8s/all-namespaces/persistentvolumeclaims" classname="/k8s/all-namespaces/persistentvolumeclaims"></testcase><testcase name="/k8s/all-namespaces/builds" classname="/k8s/all-namespaces/builds"></testcase><testcase name="/k8s/cluster/storageclasses" classname="/k8s/cluster/storageclasses"></testcase><testcase name="/k8s/all-namespaces/buildconfigs" classname="/k8s/all-namespaces/buildconfigs"></testcase><testcase name="/monitoring/alerts" classname="/monitoring/alerts"><error type="violation: aria-hidden-focus">[
+  null
+]</error></testcase><testcase name="/k8s/all-namespaces/imagestreams" classname="/k8s/all-namespaces/imagestreams"></testcase><testcase name="/monitoring/query-browser?query0=" classname="/monitoring/query-browser?query0="><error type="violation: button-name">[
+  {
+    &quot;id&quot;: &quot;button-has-visible-text&quot;,
+    &quot;data&quot;: &quot;&quot;,
+    &quot;relatedNodes&quot;: [
+      {
+        &quot;html&quot;: &quot;&lt;button aria-haspopup=\&quot;true\&quot; type=\&quot;button\&quot; class=\&quot;pf-c-dropdown__toggle\&quot; id=\&quot;metrics-dropdown\&quot;&gt;&quot;
+      }
+    ],
+    &quot;impact&quot;: &quot;critical&quot;,
+    &quot;message&quot;: &quot;Element does not have inner text that is visible to screen readers&quot;
+  }
+]</error></testcase><testcase name="/monitoring/dashboards" classname="/monitoring/dashboards"><error type="violation: aria-hidden-focus">[
+  null
+]</error></testcase><testcase name="/k8s/cluster/nodes" classname="/k8s/cluster/nodes"></testcase><testcase name="/k8s/cluster/user.openshift.io~v1~User" classname="/k8s/cluster/user.openshift.io~v1~User"><error type="violation: aria-hidden-focus">[
+  null
+]</error></testcase><testcase name="/k8s/cluster/user.openshift.io~v1~Group" classname="/k8s/cluster/user.openshift.io~v1~Group"><error type="violation: aria-hidden-focus">[
+  null
+]</error></testcase><testcase name="/k8s/all-namespaces/serviceaccounts" classname="/k8s/all-namespaces/serviceaccounts"></testcase><testcase name="/k8s/all-namespaces/roles" classname="/k8s/all-namespaces/roles"></testcase><testcase name="/k8s/all-namespaces/rolebindings" classname="/k8s/all-namespaces/rolebindings"></testcase><testcase name="/k8s/cluster/namespaces" classname="/k8s/cluster/namespaces"></testcase><testcase name="/settings/cluster" classname="/settings/cluster"></testcase><testcase name="/k8s/all-namespaces/limitranges" classname="/k8s/all-namespaces/limitranges"></testcase><testcase name="/k8s/all-namespaces/resourcequotas" classname="/k8s/all-namespaces/resourcequotas"></testcase><testcase name="/k8s/cluster/customresourcedefinitions" classname="/k8s/cluster/customresourcedefinitions"></testcase><testcase name="/k8s/cluster/config.openshift.io~v1~OAuth/cluster" classname="/k8s/cluster/config.openshift.io~v1~OAuth/cluster"></testcase><testcase name="/catalog" classname="/catalog"></testcase><testcase name="/k8s/cluster/deployments/~new" classname="/k8s/cluster/deployments/~new"><error type="violation: aria-hidden-focus">[
+  null
+]</error></testcase><testcase name="/monitoring/alertmanagerconfig" classname="/monitoring/alertmanagerconfig"></testcase><testcase name="/k8s/cluster/pods/~new" classname="/k8s/cluster/pods/~new"><error type="violation: aria-hidden-focus">[
+  null
+]</error></testcase><testcase name="/k8s/cluster/statefulsets/~new" classname="/k8s/cluster/statefulsets/~new"></testcase><testcase name="/k8s/cluster/configmaps/~new" classname="/k8s/cluster/configmaps/~new"></testcase><testcase name="/k8s/cluster/daemonsets/~new" classname="/k8s/cluster/daemonsets/~new"><error type="violation: aria-hidden-focus">[
+  null
+]</error></testcase><testcase name="/k8s/cluster/cronjobs/~new" classname="/k8s/cluster/cronjobs/~new"></testcase><testcase name="/k8s/cluster/jobs/~new" classname="/k8s/cluster/jobs/~new"></testcase><testcase name="/k8s/cluster/replicationcontrollers/~new" classname="/k8s/cluster/replicationcontrollers/~new"></testcase><testcase name="/k8s/cluster/services/~new" classname="/k8s/cluster/services/~new"></testcase><testcase name="/k8s/ns/default/routes/~new/form" classname="/k8s/ns/default/routes/~new/form"></testcase><testcase name="/k8s/cluster/networkpolicies/~new" classname="/k8s/cluster/networkpolicies/~new"></testcase><testcase name="/k8s/cluster/ingresses/~new" classname="/k8s/cluster/ingresses/~new"></testcase><testcase name="/k8s/cluster/horizontalpodautoscalers/~new" classname="/k8s/cluster/horizontalpodautoscalers/~new"></testcase><testcase name="/k8s/cluster/persistentvolumes/~new" classname="/k8s/cluster/persistentvolumes/~new"></testcase><testcase name="/k8s/ns/default/persistentvolumeclaims/~new/form" classname="/k8s/ns/default/persistentvolumeclaims/~new/form"></testcase><testcase name="/k8s/cluster/storageclasses/~new/form" classname="/k8s/cluster/storageclasses/~new/form"></testcase><testcase name="/k8s/cluster/buildconfigs/~new" classname="/k8s/cluster/buildconfigs/~new"></testcase><testcase name="/k8s/cluster/imagestreams/~new" classname="/k8s/cluster/imagestreams/~new"></testcase><testcase name="/monitoring/silences" classname="/monitoring/silences"></testcase><testcase name="/monitoring/alertrules" classname="/monitoring/alertrules"></testcase><testcase name="/monitoring/alerts/3695674300?alertname=AlertmanagerReceiversNotConfigured&amp;severity=warning" classname="/monitoring/alerts/3695674300?alertname=AlertmanagerReceiversNotConfigured&amp;severity=warning"></testcase><testcase name="/monitoring/alerts/3374358864?alertname=ClusterMonitoringOperatorReconciliationErrors&amp;endpoint=https&amp;instance=10.129.0.26%3A8443&amp;job=cluster-monitoring-operator&amp;namespace=openshift-monitoring&amp;pod=cluster-monitoring-operator-c795d6596-sp6mg&amp;service=cluster-monitoring-operator&amp;severity=warning" classname="/monitoring/alerts/3374358864?alertname=ClusterMonitoringOperatorReconciliationErrors&amp;endpoint=https&amp;instance=10.129.0.26%3A8443&amp;job=cluster-monitoring-operator&amp;namespace=openshift-monitoring&amp;pod=cluster-monitoring-operator-c795d6596-sp6mg&amp;service=cluster-monitoring-operator&amp;severity=warning"></testcase><testcase name="/monitoring/alerts/3727322003?alertname=ClusterOperatorDegraded&amp;condition=Degraded&amp;endpoint=metrics&amp;instance=10.0.141.170%3A9099&amp;job=cluster-version-operator&amp;name=monitoring&amp;namespace=openshift-cluster-version&amp;pod=cluster-version-operator-5bcd8986d4-95w6h&amp;reason=UpdatingPrometheusOperatorFailed&amp;service=cluster-version-operator&amp;severity=critical" classname="/monitoring/alerts/3727322003?alertname=ClusterOperatorDegraded&amp;condition=Degraded&amp;endpoint=metrics&amp;instance=10.0.141.170%3A9099&amp;job=cluster-version-operator&amp;name=monitoring&amp;namespace=openshift-cluster-version&amp;pod=cluster-version-operator-5bcd8986d4-95w6h&amp;reason=UpdatingPrometheusOperatorFailed&amp;service=cluster-version-operator&amp;severity=critical"></testcase><testcase name="/monitoring/alerts/558564529?alertname=FailingOperator&amp;endpoint=https-metrics&amp;exported_namespace=operand-test&amp;instance=10.129.0.2%3A8081&amp;job=olm-operator-metrics&amp;name=mock-operator&amp;namespace=openshift-operator-lifecycle-manager&amp;phase=Failed&amp;pod=olm-operator-6dd779dcbb-7qf6f&amp;reason=NoOperatorGroup&amp;service=olm-operator-metrics&amp;severity=warning&amp;version=0.0.0" classname="/monitoring/alerts/558564529?alertname=FailingOperator&amp;endpoint=https-metrics&amp;exported_namespace=operand-test&amp;instance=10.129.0.2%3A8081&amp;job=olm-operator-metrics&amp;name=mock-operator&amp;namespace=openshift-operator-lifecycle-manager&amp;phase=Failed&amp;pod=olm-operator-6dd779dcbb-7qf6f&amp;reason=NoOperatorGroup&amp;service=olm-operator-metrics&amp;severity=warning&amp;version=0.0.0"></testcase><testcase name="/monitoring/alerts/3700904118?alertname=ClusterOperatorDown&amp;endpoint=metrics&amp;instance=10.0.141.170%3A9099&amp;job=cluster-version-operator&amp;name=monitoring&amp;namespace=openshift-cluster-version&amp;pod=cluster-version-operator-5bcd8986d4-95w6h&amp;service=cluster-version-operator&amp;severity=critical&amp;version=4.6.0-0.ci-2020-06-23-063142" classname="/monitoring/alerts/3700904118?alertname=ClusterOperatorDown&amp;endpoint=metrics&amp;instance=10.0.141.170%3A9099&amp;job=cluster-version-operator&amp;name=monitoring&amp;namespace=openshift-cluster-version&amp;pod=cluster-version-operator-5bcd8986d4-95w6h&amp;service=cluster-version-operator&amp;severity=critical&amp;version=4.6.0-0.ci-2020-06-23-063142"></testcase><testcase name="/k8s/cluster/user.openshift.io~v1~Group/~new" classname="/k8s/cluster/user.openshift.io~v1~Group/~new"></testcase><testcase name="/k8s/cluster/serviceaccounts/~new" classname="/k8s/cluster/serviceaccounts/~new"></testcase><testcase name="/k8s/ns/default/roles/~new" classname="/k8s/ns/default/roles/~new"></testcase><testcase name="/k8s/cluster/rolebindings/~new" classname="/k8s/cluster/rolebindings/~new"></testcase><testcase name="/k8s/cluster/limitranges/~new" classname="/k8s/cluster/limitranges/~new"></testcase><testcase name="/k8s/ns/default/resourcequotas/~new" classname="/k8s/ns/default/resourcequotas/~new"></testcase><testcase name="/k8s/cluster/customresourcedefinitions/~new" classname="/k8s/cluster/customresourcedefinitions/~new"></testcase><testcase name="/monitoring/alertmanageryaml" classname="/monitoring/alertmanageryaml"></testcase><testcase name="/k8s/ns/default/events" classname="/k8s/ns/default/events"><error type="violation: aria-hidden-focus">[
+  null
+]</error><error type="violation: heading-order">[
+  {
+    &quot;id&quot;: &quot;heading-order&quot;,
+    &quot;data&quot;: 4,
+    &quot;relatedNodes&quot;: [
+      {
+        &quot;html&quot;: &quot;&lt;h4 class=\&quot;pf-c-chip-group__label\&quot; id=\&quot;pf-random-id-0\&quot;&gt;Resource&lt;/h4&gt;&quot;
+      }
+    ],
+    &quot;impact&quot;: &quot;moderate&quot;,
+    &quot;message&quot;: &quot;Heading order invalid&quot;
+  }
+]</error><error type="violation: list">[
+  null
+]</error></testcase><testcase name="/k8s/ns/default/operators.coreos.com~v1alpha1~ClusterServiceVersion" classname="/k8s/ns/default/operators.coreos.com~v1alpha1~ClusterServiceVersion"></testcase><testcase name="/k8s/ns/default/pods" classname="/k8s/ns/default/pods"><error type="violation: aria-hidden-focus">[
+  null
+]</error></testcase><testcase name="/k8s/ns/default/deployments" classname="/k8s/ns/default/deployments"></testcase><testcase name="/k8s/ns/default/deploymentconfigs" classname="/k8s/ns/default/deploymentconfigs"></testcase><testcase name="/k8s/ns/default/secrets" classname="/k8s/ns/default/secrets"></testcase><testcase name="/k8s/ns/default/statefulsets" classname="/k8s/ns/default/statefulsets"></testcase><testcase name="/k8s/ns/default/configmaps" classname="/k8s/ns/default/configmaps"></testcase><testcase name="/k8s/ns/default/cronjobs" classname="/k8s/ns/default/cronjobs"></testcase><testcase name="/k8s/ns/default/jobs" classname="/k8s/ns/default/jobs"><error type="violation: aria-hidden-focus">[
+  null
+]</error></testcase><testcase name="/k8s/ns/default/daemonsets" classname="/k8s/ns/default/daemonsets"></testcase><testcase name="/k8s/ns/default/replicasets" classname="/k8s/ns/default/replicasets"></testcase><testcase name="/k8s/ns/default/replicationcontrollers" classname="/k8s/ns/default/replicationcontrollers"></testcase><testcase name="/k8s/ns/default/routes" classname="/k8s/ns/default/routes"></testcase><testcase name="/k8s/ns/default/ingresses" classname="/k8s/ns/default/ingresses"></testcase><testcase name="/k8s/ns/default/services" classname="/k8s/ns/default/services"></testcase><testcase name="/k8s/ns/default/horizontalpodautoscalers" classname="/k8s/ns/default/horizontalpodautoscalers"></testcase><testcase name="/k8s/ns/default/networkpolicies" classname="/k8s/ns/default/networkpolicies"></testcase><testcase name="/k8s/ns/default/buildconfigs" classname="/k8s/ns/default/buildconfigs"><error type="violation: aria-hidden-focus">[
+  null
+]</error></testcase><testcase name="/k8s/ns/default/persistentvolumeclaims" classname="/k8s/ns/default/persistentvolumeclaims"></testcase><testcase name="/k8s/ns/default/builds" classname="/k8s/ns/default/builds"></testcase><testcase name="/k8s/ns/default/serviceaccounts" classname="/k8s/ns/default/serviceaccounts"></testcase><testcase name="/k8s/ns/default/imagestreams" classname="/k8s/ns/default/imagestreams"></testcase><testcase name="/k8s/ns/default/rolebindings" classname="/k8s/ns/default/rolebindings"></testcase><testcase name="/k8s/ns/default/roles" classname="/k8s/ns/default/roles"></testcase><testcase name="/k8s/ns/default/resourcequotas" classname="/k8s/ns/default/resourcequotas"></testcase><testcase name="/k8s/ns/default/limitranges" classname="/k8s/ns/default/limitranges"><error type="violation: aria-hidden-focus">[
+  null
+]</error></testcase><testcase name="/k8s/ns/default/routes/~new" classname="/k8s/ns/default/routes/~new"></testcase><testcase name="/k8s/ns/default/persistentvolumeclaims/~new" classname="/k8s/ns/default/persistentvolumeclaims/~new"></testcase><testcase name="/monitoring/silences/~new" classname="/monitoring/silences/~new"></testcase><testcase name="/monitoring/alertrules/3702945689" classname="/monitoring/alertrules/3702945689"></testcase><testcase name="/monitoring/alertrules/1554595790" classname="/monitoring/alertrules/1554595790"></testcase><testcase name="/monitoring/alertrules/3067286050" classname="/monitoring/alertrules/3067286050"></testcase><testcase name="/monitoring/alertrules/139597431" classname="/monitoring/alertrules/139597431"><error type="violation: aria-hidden-focus">[
+  null
+]</error></testcase><testcase name="/monitoring/alertrules/127894324" classname="/monitoring/alertrules/127894324"></testcase><testcase name="/monitoring/alertrules/3695674300" classname="/monitoring/alertrules/3695674300"></testcase><testcase name="/monitoring/query-browser?query0=cluster%3Aalertmanager_routing_enabled%3Amax%20%3D%3D%200" classname="/monitoring/query-browser?query0=cluster%3Aalertmanager_routing_enabled%3Amax%20%3D%3D%200"><error type="violation: button-name">[
+  {
+    &quot;id&quot;: &quot;button-has-visible-text&quot;,
+    &quot;data&quot;: &quot;&quot;,
+    &quot;relatedNodes&quot;: [
+      {
+        &quot;html&quot;: &quot;&lt;button aria-haspopup=\&quot;true\&quot; type=\&quot;button\&quot; class=\&quot;pf-c-dropdown__toggle\&quot; id=\&quot;metrics-dropdown\&quot;&gt;&quot;
+      }
+    ],
+    &quot;impact&quot;: &quot;critical&quot;,
+    &quot;message&quot;: &quot;Element does not have inner text that is visible to screen readers&quot;
+  }
+]</error></testcase><testcase name="/monitoring/alertrules/3940896234" classname="/monitoring/alertrules/3940896234"></testcase><testcase name="/monitoring/query-browser?query0=rate(cluster_monitoring_operator_reconcile_errors_total%5B15m%5D)%20*%20100%20%2F%20rate(cluster_monitoring_operator_reconcile_attempts_total%5B15m%5D)%20%3E%2010" classname="/monitoring/query-browser?query0=rate(cluster_monitoring_operator_reconcile_errors_total%5B15m%5D)%20*%20100%20%2F%20rate(cluster_monitoring_operator_reconcile_attempts_total%5B15m%5D)%20%3E%2010"><error type="violation: button-name">[
+  {
+    &quot;id&quot;: &quot;button-has-visible-text&quot;,
+    &quot;data&quot;: &quot;&quot;,
+    &quot;relatedNodes&quot;: [
+      {
+        &quot;html&quot;: &quot;&lt;button aria-haspopup=\&quot;true\&quot; type=\&quot;button\&quot; class=\&quot;pf-c-dropdown__toggle\&quot; id=\&quot;metrics-dropdown\&quot;&gt;&quot;
+      }
+    ],
+    &quot;impact&quot;: &quot;critical&quot;,
+    &quot;message&quot;: &quot;Element does not have inner text that is visible to screen readers&quot;
+  }
+]</error></testcase><testcase name="/monitoring/alertrules/3374358864" classname="/monitoring/alertrules/3374358864"></testcase><testcase name="/monitoring/query-browser?query0=csv_abnormal%7Bphase%3D%22Failed%22%7D" classname="/monitoring/query-browser?query0=csv_abnormal%7Bphase%3D%22Failed%22%7D"><error type="violation: button-name">[
+  {
+    &quot;id&quot;: &quot;button-has-visible-text&quot;,
+    &quot;data&quot;: &quot;&quot;,
+    &quot;relatedNodes&quot;: [
+      {
+        &quot;html&quot;: &quot;&lt;button aria-haspopup=\&quot;true\&quot; type=\&quot;button\&quot; class=\&quot;pf-c-dropdown__toggle\&quot; id=\&quot;metrics-dropdown\&quot;&gt;&quot;
+      }
+    ],
+    &quot;impact&quot;: &quot;critical&quot;,
+    &quot;message&quot;: &quot;Element does not have inner text that is visible to screen readers&quot;
+  }
+]</error></testcase><testcase name="/monitoring/alertrules/558564529" classname="/monitoring/alertrules/558564529"><error type="violation: aria-hidden-focus">[
+  null
+]</error></testcase><testcase name="/monitoring/query-browser?query0=cluster_operator_up%7Bjob%3D%22cluster-version-operator%22%7D%20%3D%3D%200" classname="/monitoring/query-browser?query0=cluster_operator_up%7Bjob%3D%22cluster-version-operator%22%7D%20%3D%3D%200"><error type="violation: button-name">[
+  {
+    &quot;id&quot;: &quot;button-has-visible-text&quot;,
+    &quot;data&quot;: &quot;&quot;,
+    &quot;relatedNodes&quot;: [
+      {
+        &quot;html&quot;: &quot;&lt;button aria-haspopup=\&quot;true\&quot; type=\&quot;button\&quot; class=\&quot;pf-c-dropdown__toggle\&quot; id=\&quot;metrics-dropdown\&quot;&gt;&quot;
+      }
+    ],
+    &quot;impact&quot;: &quot;critical&quot;,
+    &quot;message&quot;: &quot;Element does not have inner text that is visible to screen readers&quot;
+  }
+]</error></testcase><testcase name="/monitoring/alertrules/3700904118" classname="/monitoring/alertrules/3700904118"></testcase><testcase name="/monitoring/query-browser?query0=cluster_operator_conditions%7Bcondition%3D%22Degraded%22%2Cjob%3D%22cluster-version-operator%22%7D%20%3D%3D%201" classname="/monitoring/query-browser?query0=cluster_operator_conditions%7Bcondition%3D%22Degraded%22%2Cjob%3D%22cluster-version-operator%22%7D%20%3D%3D%201"><error type="violation: button-name">[
+  {
+    &quot;id&quot;: &quot;button-has-visible-text&quot;,
+    &quot;data&quot;: &quot;&quot;,
+    &quot;relatedNodes&quot;: [
+      {
+        &quot;html&quot;: &quot;&lt;button aria-haspopup=\&quot;true\&quot; type=\&quot;button\&quot; class=\&quot;pf-c-dropdown__toggle\&quot; id=\&quot;metrics-dropdown\&quot;&gt;&quot;
+      }
+    ],
+    &quot;impact&quot;: &quot;critical&quot;,
+    &quot;message&quot;: &quot;Element does not have inner text that is visible to screen readers&quot;
+  }
+]</error></testcase><testcase name="/k8s/cluster/nodes/ip-10-0-150-106.ec2.internal" classname="/k8s/cluster/nodes/ip-10-0-150-106.ec2.internal"></testcase><testcase name="/monitoring/alertrules/3727322003" classname="/monitoring/alertrules/3727322003"></testcase><testcase name="/k8s/cluster/nodes/ip-10-0-133-151.ec2.internal" classname="/k8s/cluster/nodes/ip-10-0-133-151.ec2.internal"><error type="violation: aria-hidden-focus">[
+  null
+]</error></testcase><testcase name="/k8s/cluster/nodes/ip-10-0-141-170.ec2.internal" classname="/k8s/cluster/nodes/ip-10-0-141-170.ec2.internal"></testcase><testcase name="/k8s/cluster/nodes/ip-10-0-150-19.ec2.internal" classname="/k8s/cluster/nodes/ip-10-0-150-19.ec2.internal"></testcase><testcase name="/k8s/cluster/nodes/ip-10-0-162-41.ec2.internal" classname="/k8s/cluster/nodes/ip-10-0-162-41.ec2.internal"></testcase><testcase name="/k8s/cluster/nodes/ip-10-0-168-163.ec2.internal" classname="/k8s/cluster/nodes/ip-10-0-168-163.ec2.internal"></testcase><testcase name="/k8s/ns/default/pods/~new" classname="/k8s/ns/default/pods/~new"></testcase><testcase name="/k8s/ns/default/statefulsets/~new" classname="/k8s/ns/default/statefulsets/~new"><error type="violation: aria-hidden-focus">[
+  null
+]</error></testcase><testcase name="/k8s/ns/default/deploymentconfigs/~new" classname="/k8s/ns/default/deploymentconfigs/~new"></testcase><testcase name="/k8s/ns/default/deployments/~new" classname="/k8s/ns/default/deployments/~new"></testcase><testcase name="/k8s/ns/default/configmaps/~new" classname="/k8s/ns/default/configmaps/~new"><error type="violation: aria-hidden-focus">[
+  null
+]</error></testcase><testcase name="/k8s/ns/default/cronjobs/~new" classname="/k8s/ns/default/cronjobs/~new"></testcase><testcase name="/k8s/ns/default/jobs/~new" classname="/k8s/ns/default/jobs/~new"></testcase><testcase name="/k8s/ns/default/daemonsets/~new" classname="/k8s/ns/default/daemonsets/~new"></testcase><testcase name="/k8s/ns/default/ingresses/~new" classname="/k8s/ns/default/ingresses/~new"></testcase><testcase name="/k8s/ns/default/replicasets/~new" classname="/k8s/ns/default/replicasets/~new"></testcase><testcase name="/k8s/ns/default/replicationcontrollers/~new" classname="/k8s/ns/default/replicationcontrollers/~new"></testcase><testcase name="/k8s/ns/default/services/~new" classname="/k8s/ns/default/services/~new"><error type="violation: aria-hidden-focus">[
+  null
+]</error></testcase><testcase name="/k8s/ns/default/horizontalpodautoscalers/~new" classname="/k8s/ns/default/horizontalpodautoscalers/~new"></testcase><testcase name="/k8s/ns/default/networkpolicies/~new" classname="/k8s/ns/default/networkpolicies/~new"></testcase><testcase name="/k8s/ns/default/buildconfigs/~new" classname="/k8s/ns/default/buildconfigs/~new"></testcase><testcase name="/k8s/ns/default/serviceaccounts/~new" classname="/k8s/ns/default/serviceaccounts/~new"></testcase><testcase name="/k8s/ns/default/imagestreams/~new" classname="/k8s/ns/default/imagestreams/~new"></testcase><testcase name="/k8s/ns/default/limitranges/~new" classname="/k8s/ns/default/limitranges/~new"><error type="violation: aria-hidden-focus">[
+  null
+]</error></testcase><testcase name="/monitoring/query-browser?query0=sum%20by(name%2C%20namespace)%20(sum_over_time(aggregator_unavailable_apiservice%5B5m%5D))%20%3E%200" classname="/monitoring/query-browser?query0=sum%20by(name%2C%20namespace)%20(sum_over_time(aggregator_unavailable_apiservice%5B5m%5D))%20%3E%200"><error type="violation: button-name">[
+  {
+    &quot;id&quot;: &quot;button-has-visible-text&quot;,
+    &quot;data&quot;: &quot;&quot;,
+    &quot;relatedNodes&quot;: [
+      {
+        &quot;html&quot;: &quot;&lt;button aria-haspopup=\&quot;true\&quot; type=\&quot;button\&quot; class=\&quot;pf-c-dropdown__toggle\&quot; id=\&quot;metrics-dropdown\&quot;&gt;&quot;
+      }
+    ],
+    &quot;impact&quot;: &quot;critical&quot;,
+    &quot;message&quot;: &quot;Element does not have inner text that is visible to screen readers&quot;
+  }
+]</error></testcase><testcase name="/monitoring/query-browser?query0=count_values%20by(service)%20(%22config_hash%22%2C%20alertmanager_config_hash%7Bjob%3D%22alertmanager-main%22%2Cnamespace%3D%22openshift-monitoring%22%7D)%20%2F%20on(service)%20group_left()%20label_replace(max%20by(name%2C%20job%2C%20namespace%2C%20controller)%20(prometheus_operator_spec_replicas%7Bcontroller%3D%22alertmanager%22%2Cjob%3D%22prometheus-operator%22%2Cnamespace%3D%22openshift-monitoring%22%7D)%2C%20%22service%22%2C%20%22alertmanager-%241%22%2C%20%22name%22%2C%20%22(.*)%22)%20!%3D%201" classname="/monitoring/query-browser?query0=count_values%20by(service)%20(%22config_hash%22%2C%20alertmanager_config_hash%7Bjob%3D%22alertmanager-main%22%2Cnamespace%3D%22openshift-monitoring%22%7D)%20%2F%20on(service)%20group_left()%20label_replace(max%20by(name%2C%20job%2C%20namespace%2C%20controller)%20(prometheus_operator_spec_replicas%7Bcontroller%3D%22alertmanager%22%2Cjob%3D%22prometheus-operator%22%2Cnamespace%3D%22openshift-monitoring%22%7D)%2C%20%22service%22%2C%20%22alertmanager-%241%22%2C%20%22name%22%2C%20%22(.*)%22)%20!%3D%201"><error type="violation: button-name">[
+  {
+    &quot;id&quot;: &quot;button-has-visible-text&quot;,
+    &quot;data&quot;: &quot;&quot;,
+    &quot;relatedNodes&quot;: [
+      {
+        &quot;html&quot;: &quot;&lt;button aria-haspopup=\&quot;true\&quot; type=\&quot;button\&quot; class=\&quot;pf-c-dropdown__toggle\&quot; id=\&quot;metrics-dropdown\&quot;&gt;&quot;
+      }
+    ],
+    &quot;impact&quot;: &quot;critical&quot;,
+    &quot;message&quot;: &quot;Element does not have inner text that is visible to screen readers&quot;
+  }
+]</error></testcase><testcase name="/monitoring/query-browser?query0=sum%20by(name%2C%20namespace)%20(increase(aggregator_unavailable_apiservice_count%5B5m%5D))%20%3E%202" classname="/monitoring/query-browser?query0=sum%20by(name%2C%20namespace)%20(increase(aggregator_unavailable_apiservice_count%5B5m%5D))%20%3E%202"><error type="violation: button-name">[
+  {
+    &quot;id&quot;: &quot;button-has-visible-text&quot;,
+    &quot;data&quot;: &quot;&quot;,
+    &quot;relatedNodes&quot;: [
+      {
+        &quot;html&quot;: &quot;&lt;button aria-haspopup=\&quot;true\&quot; type=\&quot;button\&quot; class=\&quot;pf-c-dropdown__toggle\&quot; id=\&quot;metrics-dropdown\&quot;&gt;&quot;
+      }
+    ],
+    &quot;impact&quot;: &quot;critical&quot;,
+    &quot;message&quot;: &quot;Element does not have inner text that is visible to screen readers&quot;
+  }
+]</error></testcase><testcase name="/monitoring/query-browser?query0=alertmanager_cluster_members%7Bjob%3D%22alertmanager-main%22%2Cnamespace%3D%22openshift-monitoring%22%7D%20!%3D%20on(service)%20group_left()%20count%20by(service)%20(alertmanager_cluster_members%7Bjob%3D%22alertmanager-main%22%2Cnamespace%3D%22openshift-monitoring%22%7D)" classname="/monitoring/query-browser?query0=alertmanager_cluster_members%7Bjob%3D%22alertmanager-main%22%2Cnamespace%3D%22openshift-monitoring%22%7D%20!%3D%20on(service)%20group_left()%20count%20by(service)%20(alertmanager_cluster_members%7Bjob%3D%22alertmanager-main%22%2Cnamespace%3D%22openshift-monitoring%22%7D)"><error type="violation: aria-hidden-focus">[
+  null
+]</error><error type="violation: button-name">[
+  {
+    &quot;id&quot;: &quot;button-has-visible-text&quot;,
+    &quot;data&quot;: &quot;&quot;,
+    &quot;relatedNodes&quot;: [
+      {
+        &quot;html&quot;: &quot;&lt;button aria-haspopup=\&quot;true\&quot; type=\&quot;button\&quot; class=\&quot;pf-c-dropdown__toggle\&quot; id=\&quot;metrics-dropdown\&quot;&gt;&quot;
+      }
+    ],
+    &quot;impact&quot;: &quot;critical&quot;,
+    &quot;message&quot;: &quot;Element does not have inner text that is visible to screen readers&quot;
+  }
+]</error></testcase><testcase name="/monitoring/query-browser?query0=alertmanager_config_last_reload_successful%7Bjob%3D%22alertmanager-main%22%2Cnamespace%3D%22openshift-monitoring%22%7D%20%3D%3D%200" classname="/monitoring/query-browser?query0=alertmanager_config_last_reload_successful%7Bjob%3D%22alertmanager-main%22%2Cnamespace%3D%22openshift-monitoring%22%7D%20%3D%3D%200"><error type="violation: aria-hidden-focus">[
+  null
+]</error><error type="violation: button-name">[
+  {
+    &quot;id&quot;: &quot;button-has-visible-text&quot;,
+    &quot;data&quot;: &quot;&quot;,
+    &quot;relatedNodes&quot;: [
+      {
+        &quot;html&quot;: &quot;&lt;button aria-haspopup=\&quot;true\&quot; type=\&quot;button\&quot; class=\&quot;pf-c-dropdown__toggle\&quot; id=\&quot;metrics-dropdown\&quot;&gt;&quot;
+      }
+    ],
+    &quot;impact&quot;: &quot;critical&quot;,
+    &quot;message&quot;: &quot;Element does not have inner text that is visible to screen readers&quot;
+  }
+]</error></testcase><testcase name="/monitoring/query-browser?query0=(time()%20-%20cluster_version_operator_update_retrieval_timestamp_seconds)%20%3E%3D%203600%20and%20ignoring(condition%2C%20name%2C%20reason)%20cluster_operator_conditions%7Bcondition%3D%22RetrievedUpdates%22%2Cendpoint%3D%22metrics%22%2Cname%3D%22version%22%2Creason!%3D%22NoChannel%22%7D" classname="/monitoring/query-browser?query0=(time()%20-%20cluster_version_operator_update_retrieval_timestamp_seconds)%20%3E%3D%203600%20and%20ignoring(condition%2C%20name%2C%20reason)%20cluster_operator_conditions%7Bcondition%3D%22RetrievedUpdates%22%2Cendpoint%3D%22metrics%22%2Cname%3D%22version%22%2Creason!%3D%22NoChannel%22%7D"><error type="violation: aria-hidden-focus">[
+  null
+]</error><error type="violation: button-name">[
+  {
+    &quot;id&quot;: &quot;button-has-visible-text&quot;,
+    &quot;data&quot;: &quot;&quot;,
+    &quot;relatedNodes&quot;: [
+      {
+        &quot;html&quot;: &quot;&lt;button aria-haspopup=\&quot;true\&quot; type=\&quot;button\&quot; class=\&quot;pf-c-dropdown__toggle\&quot; id=\&quot;metrics-dropdown\&quot;&gt;&quot;
+      }
+    ],
+    &quot;impact&quot;: &quot;critical&quot;,
+    &quot;message&quot;: &quot;Element does not have inner text that is visible to screen readers&quot;
+  }
+]</error></testcase></testsuite></testsuites>
